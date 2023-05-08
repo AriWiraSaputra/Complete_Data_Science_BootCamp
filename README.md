@@ -74,6 +74,21 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
                  [4,5,6]]]
      print(a.ndim) #3 --> ndim is used to count the number of arrays
      ```
+2. Arrays Shape and Reshape
+    * Shape
+   
+      "Shape" in NumPy refers to the size or dimensions of an array. For one-dimensional arrays, the shape only contains a single integer representing the length of         the array. For multi-dimensional arrays, the shape contains a tuple of integers representing the size of the array in each dimension. For example, a shape of           (2, 3) would indicate a two-dimensional array with 2 elements in the first dimension and 3 elements in the second dimension.
+       ```sh
+       import numpy as np
+       a = np.array([1,2,3,4,5])
+       print(a) #(5,)
+       b = np.array([1,2,3,4,5],[[6,7,8,9,10]])
+       print(b) #(2,5)
+       ```
+
+
+
+
 
 
 
