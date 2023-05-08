@@ -117,14 +117,59 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
       print(a[5]) #[6] five element in an array has an index of 6
       
       b = np.array([[1,2,3],[4,5,6]])
-      print(b[1,3])
+      print(b[0,2]) #3 Index 0 in column 1 is equal to 1, so column 1 index 2 is equal to 3. 
+      
+      c = np.array([[1,2,3],[4,5,6]])
+      print(c[1,0]) #4 Index 1 in column 1 is equal to 2, so column 2 index 0 is equal to 4.
    ```
-   
-   
-   
-   
 5. Array Iterating
+
+    Array iteration is the process of finding each element of an array in sequence to perform a specific operation. In NumPy, we can perform array iteration using a       for loop. Each element of the array can be accessed using array indexing. For example, for a two-dimensional array, we can use two loops to access each element.       Then, we can perform any operation on each element as needed.
+    ```sh
+    import numpy as np
+       a = np.array([1,2,3,4,5])
+       for i in a:
+          print(i)
+                  #1
+                  #2
+                  #3
+                  #4
+                  #5
+       b = np.array([[1,2,3],[4,5,6]])
+       for i in b:
+          print(i) 
+                  #[1,2,3],
+                  #[4,5,6]
+       for i in b:
+           for j in i:
+               print(j) 
+                  #1
+                  #2
+                  #3
+                  #4
+                  #5
+                  #6
+    ```
 6. Silicing
+
+    Slicing arrays is a technique for taking a portion or subset of a larger array by selecting only certain elements within that array. In NumPy, slicing is done         using square brackets [ ] and the range of array indices that we want to take. For example, to take a portion of an array from index 3 up to index 6, we can use       the syntax [3:7]. Additionally, we can also take elements with a certain step size using the syntax [start: end: step]. For instance, to take every second element     from an array, we can use the syntax [::2].
+    ```sh
+    import numpy as np
+       a = np.array([1,2,3,4,5])
+       print(a[1:3]) #2,3,4
+       print(a[2:])  #3,4,5
+       print(a[:3])  #2,3,4
+       print(a[1:4:2]) #2,4 Index 1 = 2 and index 4 = 5, so the selected indexes are from index 1 to 4 with a step of 2.
+       
+       b = np.array([[1,2,3,4],[5,6,7,8]])
+       print(b[1,1:3]) #6,7,8 Column with index 1 is [5, 6, 7, 8], so the elements with index 1 to index 3 are 6, 7, and 8.
+       print(b[0,1:3]) #2,3,4 Column with index 0 is [1, 2, 3, 4], so the elements with index 1 to index 3 are 2, 3, and 4.
+  
+    ```
+    
+    
+    
+    
 7. Array Searching and Shorrting
 
 
