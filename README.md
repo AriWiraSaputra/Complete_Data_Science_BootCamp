@@ -167,12 +167,9 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
   
     ```
     
-    
-    
-    
-7. Array Searching and Shorrting
+6. Array Searching and Shorrting
 
-
+     Searching and sorting arrays refer to finding specific values or ordering the elements of an array in a specific manner. In NumPy, we can use various methods to        search for elements in an array, such as np.where() and np.searchsorted(). We can also sort the elements of an array in ascending or descending order using            np.sort() and np.argsort(). Additionally, we can sort the elements of an array based on a specific criterion using np.lexsort() and np.partition().
 
 <!-- GETTING STARTED -->
 ## Getting Started
