@@ -101,13 +101,33 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
                          #[[7,8],
                          #[9,10],
                          #[11,12]]]
-      #So the array would have 2 blocks, each with 3 rows and 2 columns. The elements in the first block would be 1, 2, 3, 4, 5, and 6, while the elements in the
-      #second block would be 7, 8, 9, 10, 11, and 12.
+      #So the array would have 2 blocks, each with 3 rows and 2 columns. The elements in the first block 
+      #would be 1, 2, 3, 4, 5, and 6, while the elements in the second block would be 7, 8, 9, 10, 11, and 12.
       
       b = np.array([[1,2,3],[4,5,6]])
       c = a.reshape(-1)
       prinr(c) #([1,2,3,4,5,6]) #reshape(-1) is used to reshape an array into one dimension
       ```
+3. Arrays Indexing
+
+   Array indexing is a way to access specific elements or a subset of elements from a NumPy array. In NumPy, indexing starts at 0, which means that the first element      in an array has an index of 0, the second element has an index of 1, and so on.
+   ```sh
+   import numpy as np
+      a = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
+      print(a[5]) #[6] five element in an array has an index of 6
+      
+      b = np.array([[1,2,3],[4,5,6]])
+      print(b[1,3])
+   ```
+   
+   
+   
+   
+5. Array Iterating
+6. Silicing
+7. Array Searching and Shorrting
+
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
