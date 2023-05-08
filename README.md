@@ -13,11 +13,7 @@
       <a href="#about-the-project">About The Project</a>
     </li>
     <li>
-      <a href="#getting-started">Numpy</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+      <a href="#numpy">Numpy</a>
     </li>
     <li><a href="#Pandas">Pandas</a></li>
     <li><a href="#Data Visualization">Data Visualization</a></li>
@@ -37,6 +33,7 @@
 
 The Complete Data Science Bootcamp project is an intensive training program designed to equip participants with skills and knowledge in the field of data science. In this project, participants will learn basic data science concepts, including data processing, statistical analysis, and data modeling. In addition, participants will also minimize the use of the latest technologies and tools in data science, such as Python, SQL, machine learning, and data visualization. The Complete Data Science Bootcamp project aims to prepare participants to become professional data scientists who are reliable and ready to compete in an increasingly competitive job market.
 
+<!-- Numpy -->
 ## Numpy
 
 NumPy (Numerical Python) is a Python library for scientific computing that provides a powerful array processing capability. NumPy provides an efficient implementation of multi-dimensional arrays, which are the main data structure for numerical computing in Python. using NumPy enables users to process numeric data efficiently and effectively, as well as accelerate the development of code and applications that require processing of numeric data.
@@ -59,7 +56,7 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
      import numpy as np
      a = np.array([[1,2,3],[4,5,6]])
      print(a) #[[1,2,3],
-               [4,5,6]]
+              #[4,5,6]]
      print(a.ndim) #2 --> ndim is used to count the number of arrays
      ```
    * 3D Arrays
@@ -69,9 +66,9 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
      import numpy as np
      a = np.array([[[1,2,3],[4,5,6]],[[1,2,3],[4,5,6]]])
      print(a) #[[[1,2,3],
-                 [4,5,6]],
-                [[1,2,3],
-                 [4,5,6]]]
+                #[4,5,6]],
+                #[[1,2,3],
+                #[4,5,6]]]
      print(a.ndim) #3 --> ndim is used to count the number of arrays
      ```
 2. Arrays Shape and Reshape
@@ -81,16 +78,36 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
        ```sh
        import numpy as np
        a = np.array([1,2,3,4,5])
-       print(a) #(5,)
+       print(a.shape) #(5,)
        b = np.array([1,2,3,4,5],[[6,7,8,9,10]])
-       print(b) #(2,5)
+       print(b.shape) #(2,5) containing the elements 1 through 10 arranged in 2 rows and 5 columns
        ```
-
-
-
-
-
-
+    * Reshape
+    
+      Reshape is a method in NumPy for changing the dimensions or shape of an array without changing its data. By using the reshape method, we can convert a one-             dimensional array to a multi-dimensional array, or reshape a multi-dimensional array to a different shape with the same number of elements. For example, we can         reshape a one-dimensional array with 12 elements to a two-dimensional array with a size of 3x4, or a two-dimensional array with a size of 2x6 to a three-               dimensional array with a size of 3x2x2.
+      ```sh
+      import numpy as np
+      a = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
+      newarray = a.reshape(3,4)
+      print(newarray) #[[1,2,3,4],
+                      #[5,6,7,8],
+                      #[9,10,11,12] #containing the elements 1 through 12 arranged in 3 rows and 4 columns
+      
+      newarray1 = a.reshape9(2,3,2)
+      print(newarray1) #[[[1,2],
+                         #[3,4],
+                         #[5,6]],
+                        
+                         #[[7,8],
+                         #[9,10],
+                         #[11,12]]]
+      #So the array would have 2 blocks, each with 3 rows and 2 columns. The elements in the first block would be 1, 2, 3, 4, 5, and 6, while the elements in the
+      #second block would be 7, 8, 9, 10, 11, and 12.
+      
+      b = np.array([[1,2,3],[4,5,6]])
+      c = a.reshape(-1)
+      prinr(c) #([1,2,3,4,5,6]) #reshape(-1) is used to reshape an array into one dimension
+      ```
 
 <!-- GETTING STARTED -->
 ## Getting Started
