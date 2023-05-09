@@ -166,7 +166,7 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
        print(b[0,1:3]) #2,3,4 Column with index 0 is [1, 2, 3, 4], so the elements with index 1 to index 3 are 2, 3, and 4.
     ```
     
-6. Array Searching and Shorrting
+7. Array Searching and Shorrting
 
    Searching and sorting arrays refer to finding specific values or ordering the elements of an array in a specific manner. In NumPy, we can use various methods to          search for elements in an array, such as np.where() and np.searchsorted(). We can also sort the elements of an array in ascending or descending order using              np.sort() and np.argsort(). Additionally, we can sort the elements of an array based on a specific criterion using np.lexsort() and np.partition().
    ```sh  
@@ -225,7 +225,7 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
     |-------|----------|----------|
     |   0   |  Sunday  |    80    |
     |   1   |  Monday  |    90    |
-    |   2   |  Tuesday |    90    |
+    |   2   |  Tuesday |   100    |
     
 3. Read CSV
 
@@ -247,12 +247,102 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
    By performing these operations, we can gain a better understanding of the data and use it to make data-driven decisions. Pandas provides a rich set of functions and      tools to perform these operations and analyze data efficiently.
    
    
-   | Gambar 1 | Gambar 2 |
-   | --- | --- |
-   | ![alt text](link_gambar_1) | ![alt text](link_gambar_2) |
-   | Gambar 3 | Gambar 4 |
-   | ![alt text](link_gambar_3) | ![alt text](link_gambar_4) |
+   | Image 1 =  head() - This function is used to display the first five rows of the DataFrame| Image 2 = tail() - This function is used to display the last five rows of the DataFrame |
+   | ------------- | ------------- |
+   | ![Head](https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/head.PNG) | ![tail](https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/tail.PNG) |
+   | Image 3 info() - This function is used to display general information about the DataFrame, such as the number of rows and columns, data types, and non-null values | Image 4 describe() - This function is used to display statistical summary of the DataFrame, such as mean, median, minimum and maximum values, etc |
+   | ![alt text](https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/info.PNG) | ![alt text](https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/describe.PNG) |
 
+
+<!-- Data Visualization -->
+## Data Visualization
+1. Introduction to Matplotlib
+   
+   Matplotlib is a Python library used for creating visualizations, such as graphs, charts, and plots. It provides a flexible and powerful platform for data                visualization, and is widely used in data science, scientific research, and engineering fields.
+
+   Matplotlib allows users to create a variety of visualization types, including line plots, scatter plots, bar plots, histograms, and more. It also provides                customization options for controlling aspects such as color, fonts, and sizes.
+   ```sh
+      pip install matplotlib
+   ```
+   ```sh
+      import matplotlib.pyplot as plt
+      import numpy as np
+       
+      x = np.array([0,6])
+      y = np.array([0,80])
+      plt.plot(x,y)
+      plt.show()   
+   ```
+   <p align="center">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/csv1.PNG" alt="Description_image">
+   </p>
+
+2. Different Type of Plots in Matplotlib
+   * Line Chart 
+     ```sh
+     plt.plot()  
+     ```
+     ```sh    
+     import matplotlib.pyplot as plt
+     import numpy as np
+       
+     points = np.array([4,7,9,2,4,7,8])
+     plt.plot(points)
+     plt.show()   
+     ```    
+   * Bar Chart
+     ```sh
+     plt.bar()
+     ```
+     ```sh
+     import matplotlib.pyplot as plt
+     import numpy as np
+       
+     x = np.array(["a","b","c","d"])
+     y = np.array([40,65,70,89])
+     plt.bar(x,y)
+     plt.show()   
+     ```
+   * Scatter Plot
+     ```sh
+     plt.scatter()
+     ```
+     ```sh
+     import matplotlib.pyplot as plt
+     import numpy as np
+       
+     x = np.array([63,43,30,23])
+     y = np.array([40,65,70,89])
+     plt.scatter(x,y)
+     plt.show()   
+     ```
+   * Pie Chart
+     ```sh
+     plt.pie()
+     ```
+     ```sh
+     import matplotlib.pyplot as plt
+     import numpy as np
+       
+     x = np.array([63,43,30,23])
+     plt.pie(x)
+     plt.show()   
+     ```
+   * Histogram Chart
+     ```sh
+     plt.hist()
+     ```
+     ```sh
+     import matplotlib.pyplot as plt
+     import numpy as np
+       
+     x = np.random.normal(170,10,250)
+     plt.hist(x)
+     plt.show()   
+     ```
+   
+
+3. Seaborn
 
 <!-- GETTING STARTED -->
 ## Getting Started
