@@ -247,11 +247,11 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
    By performing these operations, we can gain a better understanding of the data and use it to make data-driven decisions. Pandas provides a rich set of functions and      tools to perform these operations and analyze data efficiently.
    
    
-   | Gambar 1 | Gambar 2 |
-   | --- | --- |
-   | ![alt text](link_gambar_1) | ![alt text](link_gambar_2) |
-   | Gambar 3 | Gambar 4 |
-   | ![alt text](link_gambar_3) | ![alt text](link_gambar_4) |
+   | Image 1 =  head() - This function is used to display the first five rows of the DataFrame| Image 2 = tail() - This function is used to display the last five rows of the DataFrame |
+   | ------------- | ------------- |
+   | ![Head](https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/head.PNG) | ![tail](https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/tail.PNG) |
+   | Image 3 info() - This function is used to display general information about the DataFrame, such as the number of rows and columns, data types, and non-null values | Image 4 describe() - This function is used to display statistical summary of the DataFrame, such as mean, median, minimum and maximum values, etc |
+   | ![alt text](https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/info.PNG) | ![alt text](https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/describe.PNG) |
 
 
 <!-- GETTING STARTED -->
