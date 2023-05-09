@@ -273,8 +273,8 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
       plt.plot(x,y)
       plt.show()   
    ```
-   <p align="center">
-      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/csv1.PNG" alt="Description_image">
+   <p align="left">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/matplotlib.PNG" alt="Description_image">
    </p>
 
 2. Different Type of Plots in Matplotlib
@@ -289,7 +289,10 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
      points = np.array([4,7,9,2,4,7,8])
      plt.plot(points)
      plt.show()   
-     ```    
+     ```
+     <p align="left">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/points.PNG" alt="Description_image">
+     </p>
    * Bar Chart
      ```sh
      plt.bar()
@@ -303,6 +306,9 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
      plt.bar(x,y)
      plt.show()   
      ```
+     <p align="left">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/bar.PNG" alt="Description_image">
+     </p>
    * Scatter Plot
      ```sh
      plt.scatter()
@@ -316,6 +322,9 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
      plt.scatter(x,y)
      plt.show()   
      ```
+     <p align="left">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/scatter.PNG" alt="Description_image">
+     </p>
    * Pie Chart
      ```sh
      plt.pie()
@@ -328,6 +337,9 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
      plt.pie(x)
      plt.show()   
      ```
+     <p align="left">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/pie.PNG" alt="Description_image">
+     </p>
    * Histogram Chart
      ```sh
      plt.hist()
@@ -340,6 +352,9 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
      plt.hist(x)
      plt.show()   
      ```
+     <p align="left">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/histogram.PNG" alt="Description_image">
+     </p>
    
 
 3. Seaborn
