@@ -1,7 +1,7 @@
 # Complete Data Science BootCamp
-<center>
-<img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/Data%20Science.png" alt="Data Science">
-</center>
+<p align="center">
+   <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/Data%20Science.png" alt="Data Science">
+</p>
 
 ## Course overview and what will you lear?
 
@@ -230,15 +230,21 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
 3. Read CSV
 
    Read CSV is a function from the Pandas library in Python that is used to read files with CSV (Comma-Separated Values) format and convert them into a Pandas DataFrame.    CSV file is a commonly used file format to store tabular data, such as data in an Excel spreadsheet. In a CSV file, each row represents a record, and each column        contains data for different attributes in that record. The "read_csv" function allows us to read CSV files, load the data into a DataFrame, and perform various data      manipulations on the file.
-
-
-
-
-
-
-
+   <p align="center">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/csv1.PNG" alt="Description_image">
+   </p>
 
 4. Analyzing DataFrame in Pandas
+
+   Analyzing DataFrame in Pandas involves performing various operations on the DataFrame to gain insights into the data, identify patterns, and make data-driven            decisions. Some of the common operations that can be performed on a Pandas DataFrame for analysis are:
+   
+   * Data Exploration - exploring the data to get an idea of its structure, quality, and distribution using various Pandas functions like head(), tail(), info(),              describe(), etc.
+   * Data Cleaning - cleaning the data by handling missing or null values, removing duplicates, correcting data types, etc.
+   * Data Transformation - transforming the data to create new variables, combine variables, apply functions, filter data, etc.
+   * Data Aggregation - aggregating the data to create summary statistics, group data by categories, pivot tables, etc.
+   * Data Visualization - visualizing the data using various charts, plots, and graphs to identify patterns and relationships in the data.
+
+   By performing these operations, we can gain a better understanding of the data and use it to make data-driven decisions. Pandas provides a rich set of functions and      tools to perform these operations and analyze data efficiently.
 
 
 <!-- GETTING STARTED -->
