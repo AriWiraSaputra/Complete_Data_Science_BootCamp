@@ -15,7 +15,7 @@
     <li>
       <a href="#numpy">Numpy</a>
     </li>
-    <li><a href="#Pandas">Pandas</a></li>
+    <li><a href="#pandas">Pandas</a></li>
     <li><a href="#Data Visualization">Data Visualization</a></li>
     <li><a href="#Data Preprocessing">Data Preprocessing</a></li>
     <li><a href="#Machine Learning">Machine Learning</a></li>
@@ -179,7 +179,28 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
        z = np.short(a)
        print(z) # (array([1,1,1,2,3,4,4,5,5])
    ```
-     
+<!-- Numpy -->
+## Pandas
+Pandas is one of the Python libraries used for data analysis and data manipulation. This library provides flexible and efficient data structures for working with structured data such as SQL tables or Excel spreadsheets.
+
+Pandas allows users to perform many tasks, such as reading and writing data in various formats, such as CSV, Excel, SQL, and others. Additionally, pandas enables users to transform data into forms suitable for analysis, such as filtering, grouping, and aggregating data. This library also has the ability to perform attractive data visualization.
+
+Pandas is highly popular among data scientists, computer scientists, and engineers because it enables them to quickly and efficiently retrieve, manipulate, and analyze data. Additionally, pandas has excellent documentation and an active community, making it easy to find help and solutions when encountering problems or difficulties in using this library.
+1. Series in Pandas
+
+   Pandas Series is a one-dimensional data structure similar to an array but with user-defined index capabilities. Pandas Series can contain numeric data, string data,      Python objects, and other data. A set of Pandas Series can also form a Pandas DataFrame. Pandas Series can be created from a Python list, NumPy array, or dictionary.    In addition, we can perform various operations on Pandas Series, such as filtering, grouping, aggregation, and data visualization.
+   Pandas Series are very useful in data analysis and make data processing easier for various types of problems such as machine learning, data science, and business data    analysis. Due to its index capabilities and comprehensive functionality, Pandas Series has become one of the most popular data structures in the Pandas library.
+   ```sh 
+   
+   
+    ```
+
+
+2. Pandas DataFrame
+3. Read CSV
+4. Analyzing DataFrame in Pandas
+
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
