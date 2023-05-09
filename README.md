@@ -186,13 +186,28 @@ Pandas is one of the Python libraries used for data analysis and data manipulati
 Pandas allows users to perform many tasks, such as reading and writing data in various formats, such as CSV, Excel, SQL, and others. Additionally, pandas enables users to transform data into forms suitable for analysis, such as filtering, grouping, and aggregating data. This library also has the ability to perform attractive data visualization.
 
 Pandas is highly popular among data scientists, computer scientists, and engineers because it enables them to quickly and efficiently retrieve, manipulate, and analyze data. Additionally, pandas has excellent documentation and an active community, making it easy to find help and solutions when encountering problems or difficulties in using this library.
+
 1. Series in Pandas
 
    Pandas Series is a one-dimensional data structure similar to an array but with user-defined index capabilities. Pandas Series can contain numeric data, string data,      Python objects, and other data. A set of Pandas Series can also form a Pandas DataFrame. Pandas Series can be created from a Python list, NumPy array, or dictionary.    In addition, we can perform various operations on Pandas Series, such as filtering, grouping, aggregation, and data visualization.
    Pandas Series are very useful in data analysis and make data processing easier for various types of problems such as machine learning, data science, and business data    analysis. Due to its index capabilities and comprehensive functionality, Pandas Series has become one of the most popular data structures in the Pandas library.
-   ```sh 
-   
-   
+   ```sh
+   import pandas as pd
+   a =[10,20,30,40,50]
+   b = pd.Series(a)
+   print(b) 
+          #0  10
+          #1  20
+          #2  30
+          #3  40
+          #4  50
+          dtype = int64
+   c = {"one" :10,"second":100,"third":1000}
+   d = pd.Series(c)
+   print(d)
+          #one      10
+          #second  100
+          #third  1000
     ```
 
 
