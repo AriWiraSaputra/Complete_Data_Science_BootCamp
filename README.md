@@ -278,68 +278,68 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
    </p>
 
 2. Different Type of Plots in Matplotlib
-   - [ ] Line Chart
-         ```sh
-         plt.plot()
-         ```
-         ```sh
-         import matplotlib.pyplot as plt
-         import numpy as np
+   * Line Chart 
+     ```sh
+     plt.plot()  
+     ```
+     ```sh    
+     import matplotlib.pyplot as plt
+     import numpy as np
        
-         points = np.array([4,7,9,2,4,7,8])
-         plt.plot(points)
-         plt.show()   
-         ```
-   - [ ] Bar Chart
-         ```sh
-         plt.bar()
-         ```
-         ```sh
-         import matplotlib.pyplot as plt
-         import numpy as np
+     points = np.array([4,7,9,2,4,7,8])
+     plt.plot(points)
+     plt.show()   
+     ```    
+   * Bar Chart
+     ```sh
+     plt.bar()
+     ```
+     ```sh
+     import matplotlib.pyplot as plt
+     import numpy as np
        
-         x = np.array(["a","b","c","d"])
-         y = np.array([40,65,70,89])
-         plt.bar(x,y)
-         plt.show()   
-         ```
-   - [ ] Scatter Plot
-         ```sh
-         plt.scatter()
-         ```
-         ```sh
-         import matplotlib.pyplot as plt
-         import numpy as np
+     x = np.array(["a","b","c","d"])
+     y = np.array([40,65,70,89])
+     plt.bar(x,y)
+     plt.show()   
+     ```
+   * Scatter Plot
+     ```sh
+     plt.scatter()
+     ```
+     ```sh
+     import matplotlib.pyplot as plt
+     import numpy as np
        
-         x = np.array([63,43,30,23])
-         y = np.array([40,65,70,89])
-         plt.scatter(x,y)
-         plt.show()   
-         ```
-   - [ ] Pie Chart
-         ```sh
-         plt.pie()
-         ```
-         ```sh
-         import matplotlib.pyplot as plt
-         import numpy as np
+     x = np.array([63,43,30,23])
+     y = np.array([40,65,70,89])
+     plt.scatter(x,y)
+     plt.show()   
+     ```
+   * Pie Chart
+     ```sh
+     plt.pie()
+     ```
+     ```sh
+     import matplotlib.pyplot as plt
+     import numpy as np
        
-         x = np.array([63,43,30,23])
-         plt.pie(x)
-         plt.show()   
-         ```
-   - [ ] Histogram Chart
-         ```sh
-         plt.hist()
-         ```
-         ```sh
-         import matplotlib.pyplot as plt
-         import numpy as np
+     x = np.array([63,43,30,23])
+     plt.pie(x)
+     plt.show()   
+     ```
+   * Histogram Chart
+     ```sh
+     plt.hist()
+     ```
+     ```sh
+     import matplotlib.pyplot as plt
+     import numpy as np
        
-         x = np.random.normal(170,10,250)
-         plt.hist(x)
-         plt.show()   
-         ```
+     x = np.random.normal(170,10,250)
+     plt.hist(x)
+     plt.show()   
+     ```
    
 
 3. Seaborn
