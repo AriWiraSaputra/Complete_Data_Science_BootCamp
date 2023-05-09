@@ -84,7 +84,7 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
        ```
     * Reshape
     
-      Reshape is a method in NumPy for changing the dimensions or shape of an array without changing its data. By using the reshape method, we can convert a one-             dimensional array to a multi-dimensional array, or reshape a multi-dimensional array to a different shape with the same number of elements. For example, we can         reshape a one-dimensional array with 12 elements to a two-dimensional array with a size of 3x4, or a two-dimensional array with a size of 2x6 to a three-               dimensional array with a size of 3x2x2.
+      Reshape is a method in NumPy for changing the dimensions or shape of an array without changing its data. By using the reshape method, we can convert a one-               dimensional array to a multi-dimensional array, or reshape a multi-dimensional array to a different shape with the same number of elements. For example, we can           reshape a one-dimensional array with 12 elements to a two-dimensional array with a size of 3x4, or a two-dimensional array with a size of 2x6 to a three-                 dimensional array with a size of 3x2x2.
       ```sh
       import numpy as np
       a = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
@@ -110,7 +110,7 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
       ```
 3. Arrays Indexing
 
-   Array indexing is a way to access specific elements or a subset of elements from a NumPy array. In NumPy, indexing starts at 0, which means that the first element      in an array has an index of 0, the second element has an index of 1, and so on.
+   Array indexing is a way to access specific elements or a subset of elements from a NumPy array. In NumPy, indexing starts at 0, which means that the first element        in an array has an index of 0, the second element has an index of 1, and so on.
    ```sh
    import numpy as np
       a = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
@@ -124,7 +124,7 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
    ```
 5. Array Iterating
 
-    Array iteration is the process of finding each element of an array in sequence to perform a specific operation. In NumPy, we can perform array iteration using a       for loop. Each element of the array can be accessed using array indexing. For example, for a two-dimensional array, we can use two loops to access each element.       Then, we can perform any operation on each element as needed.
+    Array iteration is the process of finding each element of an array in sequence to perform a specific operation. In NumPy, we can perform array iteration using a         for loop. Each element of the array can be accessed using array indexing. For example, for a two-dimensional array, we can use two loops to access each element.         Then, we can perform any operation on each element as needed.
     ```sh
     import numpy as np
        a = np.array([1,2,3,4,5])
@@ -152,7 +152,7 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
     ```
 6. Silicing
 
-    Slicing arrays is a technique for taking a portion or subset of a larger array by selecting only certain elements within that array. In NumPy, slicing is done         using square brackets [ ] and the range of array indices that we want to take. For example, to take a portion of an array from index 3 up to index 6, we can use       the syntax [3:7]. Additionally, we can also take elements with a certain step size using the syntax [start: end: step]. For instance, to take every second element     from an array, we can use the syntax [::2].
+    Slicing arrays is a technique for taking a portion or subset of a larger array by selecting only certain elements within that array. In NumPy, slicing is done           using square brackets [ ] and the range of array indices that we want to take. For example, to take a portion of an array from index 3 up to index 6, we can use         the syntax [3:7]. Additionally, we can also take elements with a certain step size using the syntax [start: end: step]. For instance, to take every second element       from an array, we can use the syntax [::2].
     ```sh
     import numpy as np
        a = np.array([1,2,3,4,5])
@@ -164,13 +164,22 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
        b = np.array([[1,2,3,4],[5,6,7,8]])
        print(b[1,1:3]) #6,7,8 Column with index 1 is [5, 6, 7, 8], so the elements with index 1 to index 3 are 6, 7, and 8.
        print(b[0,1:3]) #2,3,4 Column with index 0 is [1, 2, 3, 4], so the elements with index 1 to index 3 are 2, 3, and 4.
-  
     ```
     
 6. Array Searching and Shorrting
 
-     Searching and sorting arrays refer to finding specific values or ordering the elements of an array in a specific manner. In NumPy, we can use various methods to        search for elements in an array, such as np.where() and np.searchsorted(). We can also sort the elements of an array in ascending or descending order using            np.sort() and np.argsort(). Additionally, we can sort the elements of an array based on a specific criterion using np.lexsort() and np.partition().
-
+   Searching and sorting arrays refer to finding specific values or ordering the elements of an array in a specific manner. In NumPy, we can use various methods to          search for elements in an array, such as np.where() and np.searchsorted(). We can also sort the elements of an array in ascending or descending order using              np.sort() and np.argsort(). Additionally, we can sort the elements of an array based on a specific criterion using np.lexsort() and np.partition().
+   ```sh  
+   import numpy as np
+       a = np.array([1,2,3,4,5,1,4,5,1])
+       x = np.where(a == 1)
+       print(x) # (array([0,5,8],dtype = int64),)
+       y = np.where(a % 2 == 0)
+       print(y) # (array([1,3,6],dtype = int64),)
+       z = np.short(a)
+       print(z) # (array([1,1,1,2,3,4,4,5,5])
+   ```
+     
 <!-- GETTING STARTED -->
 ## Getting Started
 
