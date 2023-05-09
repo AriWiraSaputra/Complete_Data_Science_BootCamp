@@ -245,6 +245,13 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
    * Data Visualization - visualizing the data using various charts, plots, and graphs to identify patterns and relationships in the data.
 
    By performing these operations, we can gain a better understanding of the data and use it to make data-driven decisions. Pandas provides a rich set of functions and      tools to perform these operations and analyze data efficiently.
+   
+   
+   | Gambar 1 | Gambar 2 |
+   | --- | --- |
+   | ![alt text](link_gambar_1) | ![alt text](link_gambar_2) |
+   | Gambar 3 | Gambar 4 |
+   | ![alt text](link_gambar_3) | ![alt text](link_gambar_4) |
 
 
 <!-- GETTING STARTED -->
