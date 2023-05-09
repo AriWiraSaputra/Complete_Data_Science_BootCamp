@@ -209,10 +209,35 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
           #second  100
           #third  1000
     ```
-
-
 2. Pandas DataFrame
+
+   Pandas DataFrame is a two-dimensional data structure that is similar to SQL tables or Excel spreadsheets. Pandas DataFrame consists of rows and columns, with each        column being able to have a different data type, such as numeric, string, or other Python objects. Each column in the DataFrame can be named, and the DataFrame can      have user-defined indices.
+    ```sh
+   import pandas as pd
+   simple_data = {
+          "Weekdays": ["Sunday","Monday","Tuesday"],
+          "Scoree": ["80","90","100"]
+          }
+   d = pd.DataFrame(simpel_data)
+   print(d)
+    ```
+    |       | Weekdays | Scoree   |
+    |-------|----------|----------|
+    |   0   |  Sunday  |    80    |
+    |   1   |  Monday  |    90    |
+    |   2   |  Tuesday |    90    |
+    
 3. Read CSV
+
+   Read CSV is a function from the Pandas library in Python that is used to read files with CSV (Comma-Separated Values) format and convert them into a Pandas DataFrame.    CSV file is a commonly used file format to store tabular data, such as data in an Excel spreadsheet. In a CSV file, each row represents a record, and each column        contains data for different attributes in that record. The "read_csv" function allows us to read CSV files, load the data into a DataFrame, and perform various data      manipulations on the file.
+
+
+
+
+
+
+
+
 4. Analyzing DataFrame in Pandas
 
 
