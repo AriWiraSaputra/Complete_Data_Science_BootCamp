@@ -229,9 +229,14 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
     
 3. Read CSV
 
-   Read CSV is a function from the Pandas library in Python that is used to read files with CSV (Comma-Separated Values) format and convert them into a Pandas DataFrame.    CSV file is a commonly used file format to store tabular data, such as data in an Excel spreadsheet. In a CSV file, each row represents a record, and each column        contains data for different attributes in that record. The "read_csv" function allows us to read CSV files, load the data into a DataFrame, and perform various data      manipulations on the file.
+   Read CSV is a function from the Pandas library in Python that is used to read files with CSV (Comma-Separated Values) format and convert them into a Pandas DataFrame. CSV file is a commonly used file format to store tabular data, such as data in an Excel spreadsheet. In a CSV file, each row represents a record, and each column contains data for different attributes in that record. The "read_csv" function allows us to read CSV files, load the data into a DataFrame, and perform various data manipulations on the file.
+   ```sh
+      import pandas as pd
+      df = pd.read_csv('airport.csv')
+      print(df)
+   ```
    <p align="center">
-      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/csv1.PNG" alt="Description_image" >
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/csv.png" alt="Description_image" >
    </p>
 
 4. Analyzing DataFrame in Pandas
