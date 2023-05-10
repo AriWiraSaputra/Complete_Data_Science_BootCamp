@@ -425,7 +425,7 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
    df()
    ```
    <p align="center">
-      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/datasheet%20titanic.PNG" alt="Mising Value">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/Placement.png" alt="Mising Value">
    </p>
    
    There are missing values in the salary column of the analyzed data. This indicates that there are employees whose salary information has not been inputted or incomplete data. Before conducting further analysis, it is necessary to fill in the missing values with an appropriate method such as using the mean, median, or mode, to ensure accurate and reliable analysis results.
@@ -434,7 +434,7 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
    ```
    df.isnull().sum() is a code in Python used to count the number of missing or null values in each column of a DataFrame df. isnull() is a method used to mark each value in the DataFrame as either True if it is null, or False if it is not null. Then, sum() is used to count the number of True values for each column. Therefore, df.isnull().sum() will return a Series with the column index of the DataFrame df, and the values as the count of missing values in each column. This is very useful in data exploration to ensure that there are no missing data in certain columns of the DataFrame.
    <p align="center">
-      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/datasheet%20titanic.PNG" alt="Mising Value">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/value%20null.png" alt="Mising Value">
    </p>
    
    ```sh
@@ -448,14 +448,14 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
    df.isnull().sum()
    ```
    <p align="center">
-      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/datasheet%20titanic.PNG" alt="Mising Value">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/dataisnotnull.png" alt="Mising Value">
    </p>
    
    ```sh
    df.isnull().sum()
    ```
    <p align="center">
-      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/datasheet%20titanic.PNG" alt="Mising Value">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/no%20missing%20values.png" alt="Mising Value">
    </p> 
    
     All 'salary' values have been filled and there are no more null values. The 'salary' column has been updated to fill all previously missing values. Null values in the 'salary' column have been replaced with the mode, resulting in a complete dataset with no missing values for 'salary'.
