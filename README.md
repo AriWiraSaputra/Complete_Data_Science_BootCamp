@@ -16,8 +16,8 @@
       <a href="#numpy">Numpy</a>
     </li>
     <li><a href="#pandas">Pandas</a></li>
-    <li><a href="#Data Visualization">Data Visualization</a></li>
-    <li><a href="#Data Preprocessing">Data Preprocessing</a></li>
+    <li><a href="#data_visualization">Data Visualization</a></li>
+    <li><a href="#data_preprocessing">Data Preprocessing</a></li>
     <li><a href="#Machine Learning">Machine Learning</a></li>
     <li><a href="#Cloud Computing for Machine Learning">Cloud Computing for Machine Learning</a></li>
     <li><a href="#Deep Learning">Deep Learning</a></li>
@@ -51,7 +51,7 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
        ```
    * 2D Arrays
    
-     2D arrays, also known as matrices, are arrays with two axes or dimensions. They are used to represent tabular data or a matrix of values, such as an image with        height and width. In NumPy, 2D arrays can be created using the np.array() function and passing a list of lists as the input.
+     2D arrays, also known as matrices, are arrays with two axes or dimensions. They are used to represent tabular data or a matrix of values, such as an image with height and width. In NumPy, 2D arrays can be created using the np.array() function and passing a list of lists as the input.
      ```sh
      import numpy as np
      a = np.array([[1,2,3],[4,5,6]])
@@ -61,7 +61,7 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
      ```
    * 3D Arrays
    
-     Three-dimensional (3D) arrays, also known as a cube of data, are arrays with three axes or dimensions. They are used to represent data that can be thought of as a      cube or a rectangular prism, such as RGB images or volume data. Each element in a 3D array is accessed using three indices, corresponding to the three axes of the      cube.
+     Three-dimensional (3D) arrays, also known as a cube of data, are arrays with three axes or dimensions. They are used to represent data that can be thought of as a cube or a rectangular prism, such as RGB images or volume data. Each element in a 3D array is accessed using three indices, corresponding to the three axes of the cube.
      ```sh
      import numpy as np
      a = np.array([[[1,2,3],[4,5,6]],[[1,2,3],[4,5,6]]])
@@ -74,7 +74,7 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
 2. Arrays Shape and Reshape
     * Shape
    
-      "Shape" in NumPy refers to the size or dimensions of an array. For one-dimensional arrays, the shape only contains a single integer representing the length of         the array. For multi-dimensional arrays, the shape contains a tuple of integers representing the size of the array in each dimension. For example, a shape of           (2, 3) would indicate a two-dimensional array with 2 elements in the first dimension and 3 elements in the second dimension.
+      "Shape" in NumPy refers to the size or dimensions of an array. For one-dimensional arrays, the shape only contains a single integer representing the length of the array. For multi-dimensional arrays, the shape contains a tuple of integers representing the size of the array in each dimension. For example, a shape of (2, 3) would indicate a two-dimensional array with 2 elements in the first dimension and 3 elements in the second dimension.
        ```sh
        import numpy as np
        a = np.array([1,2,3,4,5])
@@ -84,7 +84,7 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
        ```
     * Reshape
     
-      Reshape is a method in NumPy for changing the dimensions or shape of an array without changing its data. By using the reshape method, we can convert a one-               dimensional array to a multi-dimensional array, or reshape a multi-dimensional array to a different shape with the same number of elements. For example, we can           reshape a one-dimensional array with 12 elements to a two-dimensional array with a size of 3x4, or a two-dimensional array with a size of 2x6 to a three-                 dimensional array with a size of 3x2x2.
+      Reshape is a method in NumPy for changing the dimensions or shape of an array without changing its data. By using the reshape method, we can convert a one-dimensional array to a multi-dimensional array, or reshape a multi-dimensional array to a different shape with the same number of elements. For example, we can reshape a one-dimensional array with 12 elements to a two-dimensional array with a size of 3x4, or a two-dimensional array with a size of 2x6 to a three-dimensional array with a size of 3x2x2.
       ```sh
       import numpy as np
       a = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
@@ -110,7 +110,7 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
       ```
 3. Arrays Indexing
 
-   Array indexing is a way to access specific elements or a subset of elements from a NumPy array. In NumPy, indexing starts at 0, which means that the first element        in an array has an index of 0, the second element has an index of 1, and so on.
+   Array indexing is a way to access specific elements or a subset of elements from a NumPy array. In NumPy, indexing starts at 0, which means that the first element in an array has an index of 0, the second element has an index of 1, and so on.
    ```sh
    import numpy as np
       a = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
@@ -124,7 +124,7 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
    ```
 5. Array Iterating
 
-    Array iteration is the process of finding each element of an array in sequence to perform a specific operation. In NumPy, we can perform array iteration using a         for loop. Each element of the array can be accessed using array indexing. For example, for a two-dimensional array, we can use two loops to access each element.         Then, we can perform any operation on each element as needed.
+    Array iteration is the process of finding each element of an array in sequence to perform a specific operation. In NumPy, we can perform array iteration using a for loop. Each element of the array can be accessed using array indexing. For example, for a two-dimensional array, we can use two loops to access each element. Then, we can perform any operation on each element as needed.
     ```sh
     import numpy as np
        a = np.array([1,2,3,4,5])
@@ -152,7 +152,7 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
     ```
 6. Silicing
 
-    Slicing arrays is a technique for taking a portion or subset of a larger array by selecting only certain elements within that array. In NumPy, slicing is done           using square brackets [ ] and the range of array indices that we want to take. For example, to take a portion of an array from index 3 up to index 6, we can use         the syntax [3:7]. Additionally, we can also take elements with a certain step size using the syntax [start: end: step]. For instance, to take every second element       from an array, we can use the syntax [::2].
+    Slicing arrays is a technique for taking a portion or subset of a larger array by selecting only certain elements within that array. In NumPy, slicing is done using square brackets [ ] and the range of array indices that we want to take. For example, to take a portion of an array from index 3 up to index 6, we can use the syntax [3:7]. Additionally, we can also take elements with a certain step size using the syntax [start: end: step]. For instance, to take every second element from an array, we can use the syntax [::2].
     ```sh
     import numpy as np
        a = np.array([1,2,3,4,5])
@@ -168,7 +168,7 @@ NumPy (Numerical Python) is a Python library for scientific computing that provi
     
 7. Array Searching and Shorrting
 
-   Searching and sorting arrays refer to finding specific values or ordering the elements of an array in a specific manner. In NumPy, we can use various methods to          search for elements in an array, such as np.where() and np.searchsorted(). We can also sort the elements of an array in ascending or descending order using              np.sort() and np.argsort(). Additionally, we can sort the elements of an array based on a specific criterion using np.lexsort() and np.partition().
+   Searching and sorting arrays refer to finding specific values or ordering the elements of an array in a specific manner. In NumPy, we can use various methods to search for elements in an array, such as np.where() and np.searchsorted(). We can also sort the elements of an array in ascending or descending order using np.sort() and np.argsort(). Additionally, we can sort the elements of an array based on a specific criterion using np.lexsort() and np.partition().
    ```sh  
    import numpy as np
        a = np.array([1,2,3,4,5,1,4,5,1])
@@ -189,8 +189,8 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
 
 1. Series in Pandas
 
-   Pandas Series is a one-dimensional data structure similar to an array but with user-defined index capabilities. Pandas Series can contain numeric data, string data,      Python objects, and other data. A set of Pandas Series can also form a Pandas DataFrame. Pandas Series can be created from a Python list, NumPy array, or dictionary.    In addition, we can perform various operations on Pandas Series, such as filtering, grouping, aggregation, and data visualization.
-   Pandas Series are very useful in data analysis and make data processing easier for various types of problems such as machine learning, data science, and business data    analysis. Due to its index capabilities and comprehensive functionality, Pandas Series has become one of the most popular data structures in the Pandas library.
+   Pandas Series is a one-dimensional data structure similar to an array but with user-defined index capabilities. Pandas Series can contain numeric data, string data, Python objects, and other data. A set of Pandas Series can also form a Pandas DataFrame. Pandas Series can be created from a Python list, NumPy array, or dictionary. In addition, we can perform various operations on Pandas Series, such as filtering, grouping, aggregation, and data visualization.
+   Pandas Series are very useful in data analysis and make data processing easier for various types of problems such as machine learning, data science, and business data analysis. Due to its index capabilities and comprehensive functionality, Pandas Series has become one of the most popular data structures in the Pandas library.
    ```sh
    import pandas as pd
    a =[10,20,30,40,50]
@@ -211,7 +211,7 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
     ```
 2. Pandas DataFrame
 
-   Pandas DataFrame is a two-dimensional data structure that is similar to SQL tables or Excel spreadsheets. Pandas DataFrame consists of rows and columns, with each        column being able to have a different data type, such as numeric, string, or other Python objects. Each column in the DataFrame can be named, and the DataFrame can      have user-defined indices.
+   Pandas DataFrame is a two-dimensional data structure that is similar to SQL tables or Excel spreadsheets. Pandas DataFrame consists of rows and columns, with each column being able to have a different data type, such as numeric, string, or other Python objects. Each column in the DataFrame can be named, and the DataFrame can have user-defined indices.
     ```sh
    import pandas as pd
    simple_data = {
@@ -241,31 +241,31 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
 
 4. Analyzing DataFrame in Pandas
 
-   Analyzing DataFrame in Pandas involves performing various operations on the DataFrame to gain insights into the data, identify patterns, and make data-driven            decisions. Some of the common operations that can be performed on a Pandas DataFrame for analysis are:
+   Analyzing DataFrame in Pandas involves performing various operations on the DataFrame to gain insights into the data, identify patterns, and make data-driven decisions. Some of the common operations that can be performed on a Pandas DataFrame for analysis are:
    
-   * Data Exploration - exploring the data to get an idea of its structure, quality, and distribution using various Pandas functions like head(), tail(), info(),              describe(), etc.
+   * Data Exploration - exploring the data to get an idea of its structure, quality, and distribution using various Pandas functions like head(), tail(), info(), describe(), etc.
    * Data Cleaning - cleaning the data by handling missing or null values, removing duplicates, correcting data types, etc.
    * Data Transformation - transforming the data to create new variables, combine variables, apply functions, filter data, etc.
    * Data Aggregation - aggregating the data to create summary statistics, group data by categories, pivot tables, etc.
    * Data Visualization - visualizing the data using various charts, plots, and graphs to identify patterns and relationships in the data.
 
-   By performing these operations, we can gain a better understanding of the data and use it to make data-driven decisions. Pandas provides a rich set of functions and      tools to perform these operations and analyze data efficiently.
+   By performing these operations, we can gain a better understanding of the data and use it to make data-driven decisions. Pandas provides a rich set of functions and tools to perform these operations and analyze data efficiently.
    
    
    | Image 1 =  head() - This function is used to display the first five rows of the DataFrame| Image 2 = tail() - This function is used to display the last five rows of the DataFrame |
    | ------------- | ------------- |
-   | <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/head.PNG" alt="Head" width="800" height="200"> | <img src= "https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/tail.PNG" width="800" height="200"> |
+   | <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/head.PNG.png" alt="Head" width="800" height="300">| <img src= "https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/tail.PNG.png" width="800" height="300"> |
    | Image 3 info() - This function is used to display general information about the DataFrame, such as the number of rows and columns, data types, and non-null values | Image 4 describe() - This function is used to display statistical summary of the DataFrame, such as mean, median, minimum and maximum values, etc |
-   | <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/info.PNG" width="800" height="300"> | <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/describe.PNG" width="800" height="300"> |
+   | <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/info.PNG.png" width="800" height="300"> | <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/describe.PNG.png" width="800" height="300"> |
 
 
 <!-- Data Visualization -->
 ## Data Visualization
 1. Introduction to Matplotlib
    
-   Matplotlib is a Python library used for creating visualizations, such as graphs, charts, and plots. It provides a flexible and powerful platform for data                visualization, and is widely used in data science, scientific research, and engineering fields.
+   Matplotlib is a Python library used for creating visualizations, such as graphs, charts, and plots. It provides a flexible and powerful platform for data visualization, and is widely used in data science, scientific research, and engineering fields.
 
-   Matplotlib allows users to create a variety of visualization types, including line plots, scatter plots, bar plots, histograms, and more. It also provides                customization options for controlling aspects such as color, fonts, and sizes.
+   Matplotlib allows users to create a variety of visualization types, including line plots, scatter plots, bar plots, histograms, and more. It also provides customization options for controlling aspects such as color, fonts, and sizes.
    ```sh
       pip install matplotlib
    ```
@@ -361,7 +361,6 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
       <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/histogram.PNG" alt="Description_image" width="400" height="200">
      </p>
    
-
 3. Seaborn
 
    Seaborn is a Python data visualization library based on Matplotlib that provides a high-level interface for creating informative and attractive statistical graphics. Seaborn makes it easy to create a wide range of statistical visualizations, including scatter plots, line plots, bar plots, histograms, heatmaps, and more. Seaborn has several advantages over Matplotlib, including more attractive default styles, simpler syntax for common plot types, and built-in functionality for working with complex datasets. Seaborn also includes advanced features like built-in support for visualizing distributions, regression models, and statistical relationships between variables. Overall, Seaborn is a powerful tool for data scientists and analysts who need to quickly create visualizations that help them understand and communicate complex data
@@ -414,8 +413,14 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
       <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/regplot.PNG" alt="Description_image">
      </p> 
 
-<!-- Data -->
-## Pandas
+<!-- Data Preprocessing -->
+## Data Preprocessing
+1. Handling Missing Values
+
+   Handling missing values refers to the process of identifying and dealing with the absence of data in a dataset. Missing values can occur for various reasons, such as data entry errors, equipment failure, or participant dropout. Handling missing values is an important step in data preprocessing because most machine learning algorithms cannot handle missing values.
+
+2. Feature Enconding
+3. Feature Scealing
 
 
 
