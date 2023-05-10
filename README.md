@@ -418,7 +418,48 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
 1. Handling Missing Values
 
    Handling missing values refers to the process of identifying and dealing with the absence of data in a dataset. Missing values can occur for various reasons, such as data entry errors, equipment failure, or participant dropout. Handling missing values is an important step in data preprocessing because most machine learning algorithms cannot handle missing values.
-
+   exemple : 
+   ```sh
+   import pandas as pd
+   df = pd.read_csv('Placement_Data_Full_Class.csv')
+   df()
+   ```
+   <p align="center">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/datasheet%20titanic.PNG" alt="Mising Value">
+   </p>
+   
+   There are missing values in the salary column of the analyzed data. This indicates that there are employees whose salary information has not been inputted or incomplete data. Before conducting further analysis, it is necessary to fill in the missing values with an appropriate method such as using the mean, median, or mode, to ensure accurate and reliable analysis results.
+   ```sh
+   df.isnull().sum()
+   ```
+   df.isnull().sum() is a code in Python used to count the number of missing or null values in each column of a DataFrame df. isnull() is a method used to mark each value in the DataFrame as either True if it is null, or False if it is not null. Then, sum() is used to count the number of True values for each column. Therefore, df.isnull().sum() will return a Series with the column index of the DataFrame df, and the values as the count of missing values in each column. This is very useful in data exploration to ensure that there are no missing data in certain columns of the DataFrame.
+   <p align="center">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/datasheet%20titanic.PNG" alt="Mising Value">
+   </p>
+   
+   ```sh
+   df['salary'] = df['salary'].fillna(df['salary'].mode()[0])
+   ```
+   This line of code is filling missing values in the 'salary' column of a pandas DataFrame with the mode (most frequent value) of that column. The fillna() method of a pandas DataFrame is used to replace missing (NaN) values with a specified value. In this case, the specified value is the mode of the 'salary' column, which is obtained by calling the mode() method on the 'salary' column. The [0] index is used to extract the first (and only) value from the mode result, since the mode method can return multiple modes if there are ties.
+   
+   This code assumes that the 'salary' column has missing values and that replacing them with the mode is an appropriate strategy for handling missing data in that column. It's important to note that filling missing values with the mode can introduce bias in the data if the mode is not representative of the underlying distribution. It's always a good practice to carefully consider different strategies for handling missing data and their potential impact on downstream analysis.
+   
+   ```sh
+   df.isnull().sum()
+   ```
+   <p align="center">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/datasheet%20titanic.PNG" alt="Mising Value">
+   </p>
+   
+   ```sh
+   df.isnull().sum()
+   ```
+   <p align="center">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/datasheet%20titanic.PNG" alt="Mising Value">
+   </p> 
+   
+    All 'salary' values have been filled and there are no more null values. The 'salary' column has been updated to fill all previously missing values. Null values in the 'salary' column have been replaced with the mode, resulting in a complete dataset with no missing values for 'salary'.
+    
 2. Feature Enconding
 3. Feature Scealing
 
