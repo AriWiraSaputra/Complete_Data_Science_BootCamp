@@ -465,9 +465,30 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
    * One-hot encoding
      
      This technique converts categorical data into a binary vector where each category is represented by a binary feature (0 or 1). For example, if we have a categorical feature "color" with possible values "red", "green", and "blue", we can one-hot encode it into three binary features: "is_red", "is_green", and "is_blue". 
+     
+     ```sh
+     import pandas as pd
+     df = pd.read_csv('type.csv')
+     df.head(10)
+     ```
+     <p align="center">
+        <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/no%20missing%20values.png" alt="Mising Value">
+     </p>  
+     
+     ```sh
+     df['type'].value_counts()
+     ``` 
+     <p align="center">
+        <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/no%20missing%20values.png" alt="Mising Value">
+     </p>  
+     
+     ```sh
+     pd.get_dummies(df,columns=['type'])
+     ``` 
     * Label encoding
       
       This technique assigns a numerical label to each category in a categorical feature. For example, if we have a categorical feature "color" with possible values "red", "green", and "blue", we can label encode it as 1, 2, and 3, respectively.
+   
     * Binary encoding 
       
       This technique converts a categorical feature into binary digits. Each category is assigned a binary code, and the binary codes are concatenated to form the encoded feature. For example, if we have a categorical feature "color" with possible values "red", "green", and "blue", we can binary encode it as follows: "red" = 00, "green" = 01, "blue" = 10.
