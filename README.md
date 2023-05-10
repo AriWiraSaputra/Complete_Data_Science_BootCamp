@@ -472,19 +472,23 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
      df.head(10)
      ```
      <p align="center">
-        <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/no%20missing%20values.png" alt="Mising Value">
+        <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/enconding1.png" alt="Mising Value">
      </p>  
      
      ```sh
      df['type'].value_counts()
      ``` 
      <p align="center">
-        <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/no%20missing%20values.png" alt="Mising Value">
+        <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/enconding2.png" alt="Mising Value">
      </p>  
      
      ```sh
      pd.get_dummies(df,columns=['type'])
      ``` 
+     <p align="center">
+        <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/enconding3.png" alt="Mising Value">
+     </p> 
+     
     * Label encoding
       
       This technique assigns a numerical label to each category in a categorical feature. For example, if we have a categorical feature "color" with possible values "red", "green", and "blue", we can label encode it as 1, 2, and 3, respectively.
