@@ -359,6 +359,63 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
 
 3. Seaborn
 
+   Seaborn is a Python data visualization library based on Matplotlib that provides a high-level interface for creating informative and attractive statistical graphics. Seaborn makes it easy to create a wide range of statistical visualizations, including scatter plots, line plots, bar plots, histograms, heatmaps, and more. Seaborn has several advantages over Matplotlib, including more attractive default styles, simpler syntax for common plot types, and built-in functionality for working with complex datasets. Seaborn also includes advanced features like built-in support for visualizing distributions, regression models, and statistical relationships between variables. Overall, Seaborn is a powerful tool for data scientists and analysts who need to quickly create visualizations that help them understand and communicate complex data
+   
+   * Boxplot
+     ```sh
+     import seaborn as sns
+     import matplotlib.pyplot as plt
+     import pandas as pd
+       
+     df=sns.load_dataset("tips")
+     print(df)
+     df.boxplot (by = 'day',column = ['total_bill'],grid = False)
+     plt.show()
+      ```
+     <p align="left">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/histogram.PNG" alt="Description_image">
+     </p>
+     <p align="left">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/histogram.PNG" alt="Description_image">
+     </p> 
+      
+   * Distplot
+     ```sh
+     import seaborn as sns
+     import matplotlib.pyplot as plt
+     import pandas as pd
+       
+     titanic = sns.load_dataset("titanic")
+     titanic.head()
+     df.boxplot (by = 'day',column = ['total_bill'],grid = False)
+     plt.show()
+      ```
+     <p align="left">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/histogram.PNG" alt="Description_image">
+     </p> 
+     <p align="left">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/histogram.PNG" alt="Description_image">
+     </p> 
+   
+   * regplot
+     ```sh
+     import seaborn as sns
+     import matplotlib.pyplot as plt
+     import pandas as pd
+       
+     data = sns.load_dataset("mpg")
+     data.head()
+     sns.regplot(x='mpg',y='acceleration',data = data)
+     plt.show()
+      ```
+     <p align="left">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/histogram.PNG" alt="Description_image">
+     </p> 
+     <p align="left">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/histogram.PNG" alt="Description_image">
+     </p> 
+
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
