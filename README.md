@@ -505,10 +505,9 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
 
 These techniques can be applied to different types of categorical data and may have different performance characteristics depending on the dataset and machine learning algorithm used.
 
-
-
-
 3. Feature Scealing
+   
+   Feature scaling is a process in machine learning for normalizing or standardizing numerical features in a dataset. This is done to avoid differences in scale between features that can affect the performance of machine learning algorithms. For example, if the 'age' feature has a scale of 0-100, while the 'income' feature has a scale of 0-100000, then the machine learning algorithm will pay more attention to the 'income' feature because its value is much larger than 'age'. Therefore, we need to normalize or standardize the scale of features so that the scale of features is balanced and does not produce unwanted errors when performing machine learning. Some techniques used in feature scaling include Min-Max scaling (normalization), Z-score or Standardization, Log transform, and others.
 
 
 
