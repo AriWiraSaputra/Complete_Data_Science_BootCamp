@@ -1,6 +1,6 @@
 # Complete Data Science BootCamp
 <p align="center">
-   <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/Data%20Science.png" alt="Data Science">
+   <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/Data%20Science.png" alt="Data Science" width="1000" height="500">
 </p>
 
 ## Course overview and what will you lear?
@@ -231,7 +231,7 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
 
    Read CSV is a function from the Pandas library in Python that is used to read files with CSV (Comma-Separated Values) format and convert them into a Pandas DataFrame.    CSV file is a commonly used file format to store tabular data, such as data in an Excel spreadsheet. In a CSV file, each row represents a record, and each column        contains data for different attributes in that record. The "read_csv" function allows us to read CSV files, load the data into a DataFrame, and perform various data      manipulations on the file.
    <p align="center">
-      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/csv1.PNG" alt="Description_image">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/csv1.PNG" alt="Description_image" width="1000" height="500" >
    </p>
 
 4. Analyzing DataFrame in Pandas
@@ -249,9 +249,9 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
    
    | Image 1 =  head() - This function is used to display the first five rows of the DataFrame| Image 2 = tail() - This function is used to display the last five rows of the DataFrame |
    | ------------- | ------------- |
-   | ![Head](https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/head.PNG) | ![tail](https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/tail.PNG) |
+   | <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/head.PNG" alt="Head" width="800" height="200"> | <img src= "https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/tail.PNG" width="800" height="200"> |
    | Image 3 info() - This function is used to display general information about the DataFrame, such as the number of rows and columns, data types, and non-null values | Image 4 describe() - This function is used to display statistical summary of the DataFrame, such as mean, median, minimum and maximum values, etc |
-   | ![alt text](https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/info.PNG) | ![alt text](https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/describe.PNG) |
+   | <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/info.PNG" width="800" height="300"> | <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/describe.PNG" width="800" height="300"> |
 
 
 <!-- Data Visualization -->
@@ -274,7 +274,7 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
       plt.show()   
    ```
    <p align="left">
-      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/matplotlib.PNG" alt="Description_image">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/matplotlib.PNG" alt="Description_image" width="400" height="200">
    </p>
 
 2. Different Type of Plots in Matplotlib
@@ -291,7 +291,7 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
      plt.show()   
      ```
      <p align="left">
-      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/points.PNG" alt="Description_image">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/points.PNG" alt="Description_image" width="400" height="200">
      </p>
    * Bar Chart
      ```sh
@@ -307,7 +307,7 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
      plt.show()   
      ```
      <p align="left">
-      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/bar.PNG" alt="Description_image">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/bar.PNG" alt="Description_image" width="400" height="200">
      </p>
    * Scatter Plot
      ```sh
@@ -323,7 +323,7 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
      plt.show()   
      ```
      <p align="left">
-      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/scatter.PNG" alt="Description_image">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/scatter.PNG" alt="Description_image" width="400" height="200">
      </p>
    * Pie Chart
      ```sh
@@ -338,7 +338,7 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
      plt.show()   
      ```
      <p align="left">
-      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/pie.PNG" alt="Description_image">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/pie.PNG" alt="Description_image" width="400" height="200">
      </p>
    * Histogram Chart
      ```sh
@@ -353,7 +353,7 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
      plt.show()   
      ```
      <p align="left">
-      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/histogram.PNG" alt="Description_image">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/histogram.PNG" alt="Description_image" width="400" height="200">
      </p>
    
 
@@ -371,14 +371,12 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
      print(df)
      df.boxplot (by = 'day',column = ['total_bill'],grid = False)
      plt.show()
-      ```
-     <p align="left">
-      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/histogram.PNG" alt="Description_image">
+     ```
+     <p align="center">
+        <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/dataset%20tips.PNG" alt="Gambar 1" > &nbsp; &nbsp; &nbsp;
+        <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/Boxplot.PNG" alt="Gambar 2" >
      </p>
-     <p align="left">
-      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/histogram.PNG" alt="Description_image">
-     </p> 
-      
+     
    * Distplot
      ```sh
      import seaborn as sns
@@ -390,13 +388,11 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
      df.boxplot (by = 'day',column = ['total_bill'],grid = False)
      plt.show()
       ```
-     <p align="left">
-      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/histogram.PNG" alt="Description_image">
-     </p> 
-     <p align="left">
-      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/histogram.PNG" alt="Description_image">
-     </p> 
-   
+     <p align="center">
+        <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/datasheet%20titanic.PNG" alt="Gambar 1"  > &nbsp; &nbsp; &nbsp;
+        <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/displot.PNG" alt="Gambar 2" >
+     </p>
+
    * regplot
      ```sh
      import seaborn as sns
@@ -409,10 +405,10 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
      plt.show()
       ```
      <p align="left">
-      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/histogram.PNG" alt="Description_image">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/dataset%20mpg.PNG" alt="Description_image">
      </p> 
      <p align="left">
-      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/histogram.PNG" alt="Description_image">
+      <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/regplot.PNG" alt="Description_image">
      </p> 
 
 
