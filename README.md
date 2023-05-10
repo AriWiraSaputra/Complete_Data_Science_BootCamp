@@ -461,7 +461,32 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
     All 'salary' values have been filled and there are no more null values. The 'salary' column has been updated to fill all previously missing values. Null values in the 'salary' column have been replaced with the mode, resulting in a complete dataset with no missing values for 'salary'.
     
 2. Feature Enconding
+   Feature encoding is the process of transforming categorical or text data into a numerical representation that can be used for machine learning algorithms. Machine learning algorithms typically work with numerical data, so feature encoding is necessary when working with non-numerical data. There are different types of feature encoding techniques, including: 
+   * One-hot encoding
+     
+     This technique converts categorical data into a binary vector where each category is represented by a binary feature (0 or 1). For example, if we have a categorical feature "color" with possible values "red", "green", and "blue", we can one-hot encode it into three binary features: "is_red", "is_green", and "is_blue". 
+    * Label encoding
+      
+      This technique assigns a numerical label to each category in a categorical feature. For example, if we have a categorical feature "color" with possible values "red", "green", and "blue", we can label encode it as 1, 2, and 3, respectively.
+    * Binary encoding 
+      
+      This technique converts a categorical feature into binary digits. Each category is assigned a binary code, and the binary codes are concatenated to form the encoded feature. For example, if we have a categorical feature "color" with possible values "red", "green", and "blue", we can binary encode it as follows: "red" = 00, "green" = 01, "blue" = 10.
+    * Count encoding
+      
+      This technique replaces each category with the number of times it appears in the dataset. For example, if we have a categorical feature "color" with possible values "red", "green", "blue", and "red", count encoding will assign the values 2, 1, and 1 to "red", "green", and "blue", respectively.
+    * Target encoding
+      
+      This technique replaces each category with the mean value of the target variable for that category. For example, if we have a categorical feature "color" and a target variable "price", target encoding will assign the mean price for each color to that color's category.
+
+These techniques can be applied to different types of categorical data and may have different performance characteristics depending on the dataset and machine learning algorithm used.
+
+
+
+
 3. Feature Scealing
+
+
+
 
 
 
