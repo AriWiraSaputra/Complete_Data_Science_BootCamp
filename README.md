@@ -509,9 +509,25 @@ These techniques can be applied to different types of categorical data and may h
    
    Feature scaling is a process in machine learning for normalizing or standardizing numerical features in a dataset. This is done to avoid differences in scale between features that can affect the performance of machine learning algorithms. For example, if the 'age' feature has a scale of 0-100, while the 'income' feature has a scale of 0-100000, then the machine learning algorithm will pay more attention to the 'income' feature because its value is much larger than 'age'. Therefore, we need to normalize or standardize the scale of features so that the scale of features is balanced and does not produce unwanted errors when performing machine learning. Some techniques used in feature scaling include Min-Max scaling (normalization), Z-score or Standardization, Log transform, and others.
 
-
-
-
+<!-- Machine Learning -->
+## Machine Learning
+   
+   Machine learning is a branch of artificial intelligence that teaches machines to learn from data without being explicitly programmed. Machines learn from data to find patterns and make predictions or decisions. The process of machine learning involves data collection, data preparation, model selection, model training, and model evaluation. The data collected must be well prepared before being fed into the model. Selecting the right model is also crucial for accurate results. There are three types of machine learning: supervised learning, unsupervised learning, and reinforcement learning. Supervised learning involves using a dataset that is labeled or has correct answers. The model learns from this data to make accurate predictions or decisions when given new data. Unsupervised learning, on the other hand, does not involve labeled or correct answers, but rather attempts to find patterns in the data. Reinforcement learning involves providing feedback to the model to improve its results over time. Machine learning is used in various applications, including natural language processing, face recognition, image classification, and much more. In recent years, advancements in technology and the availability of big data have accelerated the development of machine learning and opened up many new opportunities.
+   1. Supervised Machine Learning
+   2. Unsupervised Machine Learning
+   3. Machine Learning Life Cycle
+   4. Train Test Split
+   5. Regression Analaysis
+   6. Liner Regression 
+   7. logistic Regression
+   8. KKN
+   9. SVM
+   10. Decision Tree
+   11. Random Forest
+   12. K Means Clustering
+   13. Hyper Parameter Optimization with GridSearchCV
+   14. Machine Learning Pipeline
+   15. Machine Learning Model Evaluation Metrics 
 
 
 
