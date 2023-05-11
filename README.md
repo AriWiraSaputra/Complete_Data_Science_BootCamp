@@ -573,16 +573,54 @@ These techniques can be applied to different types of categorical data and may h
       </p> 
    
    6. Liner Regression 
+      <p align="justify">
+      Linear regression is a type of regression analysis used in machine learning to predict a continuous outcome variable (also called a dependent variable) based on one or more predictor variables (also called independent variables). It assumes a linear relationship between the predictor variables and the outcome variable, meaning that the change in the outcome variable is proportional to the change in the predictor variables. In linear regression, the goal is to find the line of best fit that represents the relationship between the predictor variables and the outcome variable. The line of best fit is determined by minimizing the sum of the squared differences between the actual values of the outcome variable and the predicted values.
+      </p>
+      
    7. logistic Regression
+      <p align="justify">
+   
+      </p>
+   
    8. KKN
+      <p align="justify">
+   
+      </p>
+   
    9. SVM
+      <p align="justify">
+   
+      </p>
+  
    10. Decision Tree
+      <p align="justify">
+   
+      </p>
+   
    11. Random Forest
+      <p align="justify">
+   
+      </p>
+   
    12. K Means Clustering
+      <p align="justify">
+   
+      </p>
+   
    13. Hyper Parameter Optimization with GridSearchCV
+      <p align="justify">
+   
+      </p>
+   
    14. Machine Learning Pipeline
+      <p align="justify">
+   
+      </p>
+   
    15. Machine Learning Model Evaluation Metrics 
-
+      <p align="justify">
+   
+      </p>
 
 
 
