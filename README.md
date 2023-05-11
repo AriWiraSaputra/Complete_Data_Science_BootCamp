@@ -577,6 +577,31 @@ These techniques can be applied to different types of categorical data and may h
       Linear regression is a type of regression analysis used in machine learning to predict a continuous outcome variable (also called a dependent variable) based on one or more predictor variables (also called independent variables). It assumes a linear relationship between the predictor variables and the outcome variable, meaning that the change in the outcome variable is proportional to the change in the predictor variables. In linear regression, the goal is to find the line of best fit that represents the relationship between the predictor variables and the outcome variable. The line of best fit is determined by minimizing the sum of the squared differences between the actual values of the outcome variable and the predicted values.
       </p>
       
+      ```sh
+      x = data_set.iloc[:,:-1].values
+      y = data_set.iloc[:,1].values
+      ``` 
+      <p align="justify">
+      Generally, this code is used to separate the dataset into two variables, namely independent variable (x) and dependent variable (y) for further processing. The independent variable is the input variable used to predict the dependent variable, which is the output variable to be predicted. In general, the code is used to separate a dataset into two variables, namely the independent variable (x) and the dependent variable (y) for further processing. The independent variable is the input variable used to predict the dependent variable, which is the output variable that needs to be predicted. The first line of code, x = data_set.iloc[:,:-1].values, slices the dataset using .iloc[:,:-1], which means selecting all rows and all columns except the last column, which is the dependent variable column. The 'values' function is used to convert the sliced result into a Numpy array, so the resulting variable x contains all rows and all columns except the last column. The second line of code, y = data_set.iloc[:,1].values, slices the dataset using .iloc[:,1], which means selecting all rows in the second column, which is the dependent variable column. The 'values' function is used to convert the sliced result into a Numpy array, so the resulting variable y contains all rows in the second column (dependent variable). In the context of Machine Learning, the variable x will be used as an input to the Machine Learning model, while the variable y will be used as the output to be predicted by the model.
+      </p> 
+      
+      ```sh
+      from sklearn.model_selection import train_test_split
+      x_train,x_test,y_train,y_test = train_test_split(x,y,test_size = 0.2)
+      ``` 
+      The code is using the train_test_split function from the sklearn.model_selection module to split the dataset into training and testing data. The train_test_split function takes in the x and y variables, as well as a test_size parameter that determines the proportion of the data that will be used for testing. In this case, the test_size is set to 0.2, which means 20% of the data will be used for testing. The function returns four variables: x_train, x_test, y_train, and y_test. These variables represent the training and testing datasets for the independent and dependent variables. x_train and y_train represent the training data, which is used to train the machine learning model. x_test and y_test represent the testing data, which is used to evaluate the performance of the model on data that it has not seen before. The code assigns these variables using multiple variable assignment, which is a convenient way of assigning multiple variables at once. 
+      
+      ```sh
+      from sklearn.model_selection import train_test_split
+      x_train,x_test,y_train,y_test = train_test_split(x,y,test_size = 0.2)
+      ``` 
+      This line of code imports the LinearRegression class from the sklearn.linear_model module. This class provides an implementation of the linear regression model that can be used to perform regression analysis on data. The linear regression model is a mathematical model that is used to model the linear relationship between a dependent variable and one or more independent variables.
+      
+      <p align="center">
+        <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/enconding2.png" alt="Mising Value">
+     </p>  
+     
+      
    7. logistic Regression
       <p align="justify">
    
