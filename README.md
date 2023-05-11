@@ -610,13 +610,14 @@ These techniques can be applied to different types of categorical data and may h
    7. logistic Regression
    
       <p align="justify">
-       Logistic Regression is a statistical method used for binary classification problems where the output variable takes only two values, typically 0 or 1. It is a type of generalized linear model that uses a logistic function to model the relationship between the independent variables and the probability of the binary outcome. In logistic regression, the input variables are combined linearly using weights or coefficients to predict a log-odds output. This log-odds output is then transformed using the logistic function to produce the final probability prediction. Logistic Regression is a popular classification algorithm in Machine Learning because it is simple, fast, and interpretable. It is commonly used in various applications such as fraud detection, customer churn prediction, and disease diagnosis. terjemahkan ke indonesia
+       Logistic Regression is a statistical method used for binary classification problems where the output variable takes only two values, typically 0 or 1. It is a type of generalized linear model that uses a logistic function to model the relationship between the independent variables and the probability of the binary outcome. In logistic regression, the input variables are combined linearly using weights or coefficients to predict a log-odds output. This log-odds output is then transformed using the logistic function to produce the final probability prediction. Logistic Regression is a popular classification algorithm in Machine Learning because it is simple, fast, and interpretable. It is commonly used in various applications such as fraud detection, customer churn prediction, and disease diagnosis.
    
       </p>
    
    8. KKN
       <p align="justify">
-   
+       K Nearest Neighbors (KNN) is a Machine Learning algorithm used for classification and regression problems. Essentially, the KNN algorithm looks for the K nearest neighbors of a given data point and determines the label or regression value based on the majority of the neighbors' labels. In the case of classification, KNN determines the class label by taking the majority label from the nearest neighbors. In contrast, in the case of regression, KNN determines the regression value by taking the average value from the nearest neighbors.
+       KNN works by calculating the distance between the given data point and all other data points in the dataset. The most common distance metrics used are Euclidean distance or Manhattan distance. KNN has the advantages of being easy to implement, performing well on simple data, and being easy to interpret. However, KNN is not suitable for complex or high-dimensional data, and it can also be computationally expensive to calculate distances in large datasets.
       </p>
    
    9. SVM
