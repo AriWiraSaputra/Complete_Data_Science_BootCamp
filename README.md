@@ -622,7 +622,7 @@ These techniques can be applied to different types of categorical data and may h
    
    9. SVM
       <p align="justify">
-   
+       SVM or Support Vector Machine is a Machine Learning algorithm used for classification and regression problems. The main objective of SVM is to find the most optimal hyperplane or boundary line to separate the two classes in the given data. SVM searches for a hyperplane by maximizing the margin, which is the closest distance between the hyperplane and the nearest data points from both classes. In addition, SVM can also use kernels to map the data into a higher-dimensional space, allowing SVM to find more complex hyperplanes for non-linearly separable data. SVM has advantages because it can work well on data with many features, whether the data is linearly separable or not. Additionally, SVM has the ability to overcome overfitting on training data and can be used for multi-class problems. However, SVM also has drawbacks, including taking longer to train the model on large and complex data, and having difficulty in handling data with significant noise and outliers.
       </p>
   
    10. Decision Tree
