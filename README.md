@@ -30,8 +30,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+<p align="justify">
 The Complete Data Science Bootcamp project is an intensive training program designed to equip participants with skills and knowledge in the field of data science. In this project, participants will learn basic data science concepts, including data processing, statistical analysis, and data modeling. In addition, participants will also minimize the use of the latest technologies and tools in data science, such as Python, SQL, machine learning, and data visualization. The Complete Data Science Bootcamp project aims to prepare participants to become professional data scientists who are reliable and ready to compete in an increasingly competitive job market.
+</p>
 
 <!-- Numpy -->
 ## Numpy
@@ -511,8 +512,10 @@ These techniques can be applied to different types of categorical data and may h
 
 <!-- Machine Learning -->
 ## Machine Learning
-   
+<p align="justify">
    Machine learning is a branch of artificial intelligence that teaches machines to learn from data without being explicitly programmed. Machines learn from data to find patterns and make predictions or decisions. The process of machine learning involves data collection, data preparation, model selection, model training, and model evaluation. The data collected must be well prepared before being fed into the model. Selecting the right model is also crucial for accurate results. There are three types of machine learning: supervised learning, unsupervised learning, and reinforcement learning. Supervised learning involves using a dataset that is labeled or has correct answers. The model learns from this data to make accurate predictions or decisions when given new data. Unsupervised learning, on the other hand, does not involve labeled or correct answers, but rather attempts to find patterns in the data. Reinforcement learning involves providing feedback to the model to improve its results over time. Machine learning is used in various applications, including natural language processing, face recognition, image classification, and much more. In recent years, advancements in technology and the availability of big data have accelerated the development of machine learning and opened up many new opportunities.
+</p>
+
    1. Supervised Machine Learning
        
       Supervised machine learning is a type of machine learning where the model learns from labeled data to make predictions or decisions. In supervised learning, the dataset used for training the model contains input features (also known as independent variables) and corresponding target labels (also known as dependent variables or outputs). The goal of supervised learning is to train a model that can accurately map input features to their corresponding target labels, allowing it to make predictions on new, unseen data
@@ -558,10 +561,17 @@ These techniques can be applied to different types of categorical data and may h
         
         These steps are iterative and require a lot of experimentation and fine-tuning to achieve the best results. The ML life cycle is an ongoing process, and models may need to be updated and retrained as new data becomes available or as the problem changes over time.
   
-   
-   
    4. Train Test Split
+      <p align="justify">
+      Train test split is a technique in machine learning for dividing a dataset into two parts, namely the training set and the testing set. The training set is used to train the model, while the testing set is used to evaluate how well the model can make predictions on new data that it has not seen before. The dataset is split randomly with a certain proportion, such as 70% for the training set and 30% for the testing set. The proportion may vary depending on the amount of data available and the complexity of the model used.
+      The purpose of train test split is to avoid overfitting, a condition where the model is too closely fitted to the training data and cannot make good predictions on new data. By separating the dataset into two parts, we can check the model's performance on data that was not used for training. Train test split can be done using libraries or modules in programming languages like Python, such as scikit-learn. The module provides functions to split the dataset with a certain proportion randomly. After the dataset is divided, we can train the model on the training set and evaluate its performance on the testing set.
+      </p>
+ 
    5. Regression Analaysis
+      <p align="justify">
+      Regression analysis is a statistical method used to examine the relationship between a dependent variable and one or more independent variables. The goal is to find a mathematical model that can predict the value of the dependent variable based on the values of the independent variables. Regression analysis can be used for both linear and nonlinear relationships. In linear regression, the goal is to find a straight line that best fits the data. In nonlinear regression, the goal is to find a curve or equation that best fits the data. There are different types of regression analysis, such as simple linear regression, multiple linear regression, logistic regression, and polynomial regression. Simple linear regression involves only one independent variable, while multiple linear regression involves two or more independent variables. Logistic regression is used when the dependent variable is categorical, and polynomial regression is used when there is a nonlinear relationship between the variables.
+      </p> 
+   
    6. Liner Regression 
    7. logistic Regression
    8. KKN
