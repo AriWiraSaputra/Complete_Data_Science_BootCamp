@@ -598,8 +598,15 @@ These techniques can be applied to different types of categorical data and may h
       This line of code imports the LinearRegression class from the sklearn.linear_model module. This class provides an implementation of the linear regression model that can be used to perform regression analysis on data. The linear regression model is a mathematical model that is used to model the linear relationship between a dependent variable and one or more independent variables.
       
       <p align="center">
-        <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/enconding2.png" alt="Mising Value">
-     </p>  
+        <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/Liner%20Regression1.png" alt="Mising Value">
+        <img src="https://github.com/AriWiraSaputra/Complete_Data_Science_BootCamp/blob/main/Liner%20Regression2.png" alt="Mising Value">
+      </p>
+      
+      The first program displays a scatter plot for the training data (x_train and y_train) with green dot color (color="green"). Then, the program also displays a red line (color="red") representing the trained linear regression model using the training data. The line shows the linear relationship between the independent variable (x_train) and dependent variable (y_train) in the training data.
+
+      The second program displays a scatter plot for the testing data (x_test and y_test) with blue dot color (color="blue"). Then, the program also displays the same red line (color="red") as the first program, representing the trained linear regression model using the training data. The line also shows the linear relationship between the independent variable (x_train) and dependent variable (y_train), but the model is tested on unseen testing data.
+
+      By plotting these graphs, we can visualize the performance of the linear regression model in predicting the testing data based on the trained training data
      
       
    7. logistic Regression
