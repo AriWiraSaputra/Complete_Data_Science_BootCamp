@@ -607,10 +607,10 @@ These techniques can be applied to different types of categorical data and may h
       The second program displays a scatter plot for the testing data (x_test and y_test) with blue dot color (color="blue"). Then, the program also displays the same red line (color="red") as the first program, representing the trained linear regression model using the training data. The line also shows the linear relationship between the independent variable (x_train) and dependent variable (y_train), but the model is tested on unseen testing data.
 
       By plotting these graphs, we can visualize the performance of the linear regression model in predicting the testing data based on the trained training data
-     
-      
    7. logistic Regression
+   
       <p align="justify">
+       Logistic Regression is a statistical method used for binary classification problems where the output variable takes only two values, typically 0 or 1. It is a type of generalized linear model that uses a logistic function to model the relationship between the independent variables and the probability of the binary outcome. In logistic regression, the input variables are combined linearly using weights or coefficients to predict a log-odds output. This log-odds output is then transformed using the logistic function to produce the final probability prediction. Logistic Regression is a popular classification algorithm in Machine Learning because it is simple, fast, and interpretable. It is commonly used in various applications such as fraud detection, customer churn prediction, and disease diagnosis. terjemahkan ke indonesia
    
       </p>
    
