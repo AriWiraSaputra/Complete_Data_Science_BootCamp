@@ -665,9 +665,38 @@ These techniques can be applied to different types of categorical data and may h
    
        </p>
 
-
-
-
+<!-- Cloud Coumputing for Machine Learning -->
+## Cloud Coumputing for Machine Learning 
+   <p align="justify">
+   
+   Cloud computing is an ideal solution for machine learning as it provides a scalable, reliable, and cost-effective way to perform resource-intensive machine learning tasks. Cloud providers offer a range of services for machine learning, including managed services for training and deploying models, big data analytics tools, and computing infrastructure. Some of the benefits of using cloud computing for machine learning are:
+   * Scalability: Cloud providers offer elastic computing resources that can scale up or down based on the demand. This allows users to easily scale their machine learning workloads as needed, without having to worry about the underlying infrastructure.
+   * Cost-effectiveness: Cloud computing can help reduce the costs of running machine learning workloads. Cloud providers offer pay-as-you-go pricing models, allowing users to only pay for the resources they use. This eliminates the need to invest in expensive hardware and software upfront.
+   * Flexibility: Cloud computing provides users with the flexibility to choose the right tools and services for their machine learning workloads. Cloud providers offer a range of machine learning services and tools, allowing users to pick and choose the ones that best suit their needs.
+   * Security: Cloud providers have robust security measures in place to protect user data and applications. This can help users ensure the security of their machine learning workloads, without having to worry about the underlying infrastructure.
+   
+   Overall, cloud computing provides a highly scalable, cost-effective, and flexible platform for machine learning that can help organizations accelerate their machine learning initiatives and stay competitive in today's rapidly changing business landscape. 
+   1. Introduction AWS
+      
+      AWS (Amazon Web Services) is a cloud computing platform provided by Amazon. It provides a wide range of cloud-based services, including computing power, storage, and databases, as well as tools for analytics, machine learning, and IoT (Internet of Things). AWS offers a highly scalable and reliable cloud infrastructure that enables businesses to run their applications and services with ease. WS offers a wide range of services, including:
+      * mputing: AWS offers a range of computing options, including EC2 (Elastic Compute Cloud), Lambda, and ECS (Elastic Container Service).
+      * Storage: AWS offers a range of storage options, including S3 (Simple Storage Service), EBS (Elastic Block Store), and Glacier.
+      * Databases: AWS offers a range of database options, including RDS (Relational Database Service), DynamoDB, and Neptune.
+      * Analytics: AWS offers a range of analytics options, including EMR (Elastic MapReduce), Kinesis, and QuickSight.
+      * Machine Learning: AWS offers a range of machine learning options, including SageMaker, Rekognition, and Comprehend.
+      * IoT: AWS offers a range of IoT options, including IoT Core, Greengrass, and IoT Analytics.
+      
+   AWS also provides a range of management and security tools to help users manage their resources and ensure the security of their applications and data. These include AWS CloudFormation, AWS CloudTrail, and AWS Identity and Access Management (IAM). Overall, AWS provides a comprehensive cloud computing platform that enables businesses to run their applications and services with ease, while also providing a range of tools and services for analytics, machine learning, and IoT.
+   2. ferent AWS Services
+   3. Introduction to AWS SageMaker
+   4. First Machine Learning Practical on AWS SageMaker
+   5. Built in ML Algorithms in AWS SageMaker
+   6. Linear Learner Algorithm Practical Implementation
+   7. No Code ML Using AWS SageMaker Canvas
+   8. AWS SageMaker MarketPlace
+  
+   
+   </p>
 
 
 
