@@ -642,7 +642,7 @@ These techniques can be applied to different types of categorical data and may h
    
    13. Hyper Parameter Optimization with GridSearchCV
       <p align="justify">
-   
+       Hyperparameter optimization is a technique used in machine learning to tune the parameters of a model for better performance. GridSearchCV is a popular method for hyperparameter optimization that exhaustively searches over a specified grid of hyperparameters to find the best combination of parameters for a given model. GridSearchCV works by creating a grid of all possible hyperparameter values and then evaluating the model with each combination of hyperparameters using cross-validation. The performance metric used to evaluate the model is typically the mean accuracy or F1 score. The hyperparameters to be tuned and their ranges are specified by the user, and the GridSearchCV algorithm then trains the model with each combination of hyperparameters in the grid. Once all the combinations have been evaluated, the algorithm returns the hyperparameters that resulted in the best performance. GridSearchCV is a powerful tool for optimizing hyperparameters and can save time and effort compared to manually tuning hyperparameters. However, it can also be computationally expensive, especially for large grids of hyperparameters or for complex models. Overall, GridSearchCV is a useful technique for improving the performance of machine learning models and is commonly used in data science for various applications such as image recognition, text classification, and time series forecasting.
       </p>
    
    14. Machine Learning Pipeline
