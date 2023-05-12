@@ -627,17 +627,17 @@ These techniques can be applied to different types of categorical data and may h
   
    10. Decision Tree
       <p align="justify">
-   
+       Decision Tree is one of the machine learning algorithms used in data science to build prediction or classification models based on a series of decisions made on the given data. The way the Decision Tree algorithm works is by dividing the data into several groups or nodes based on certain criteria, such as feature or attribute values, so that each node represents a smaller and more homogeneous subgroup in terms of the target variable to be predicted. Each node is then divided again into smaller and more homogeneous subgroups until a termination condition is reached. The termination condition can be a minimum sample size at each node or a sufficient level of accuracy at each node. Once the decision tree is formed, the model can be used to predict the target variable based on new input features by following the appropriate path in the decision tree. The Decision Tree algorithm can be applied to various types of problems, such as classification, regression, or clustering. The advantages of the Decision Tree algorithm are that it is easy to understand and interpret, can be used on qualitative and quantitative data, and can handle noisy or incomplete data. However, its weakness is that it tends to overfit and cannot handle complex problems well.
       </p>
    
    11. Random Forest
       <p align="justify">
-   
+       Random Forest is a machine learning algorithm used in data science for classification, regression, and other types of data analysis tasks. It is an ensemble method that combines multiple decision trees to create a more accurate and robust model. The Random Forest algorithm works by creating a large number of decision trees, each using a random subset of the features and a random subset of the data. This randomness helps to reduce overfitting and improve generalization performance. When making a prediction, each decision tree in the forest produces its own prediction, and the final prediction is determined by taking the majority vote of all the decision trees. The advantages of the Random Forest algorithm include its ability to handle noisy and missing data, its resistance to overfitting, and its suitability for large datasets. However, its main disadvantage is that it can be computationally expensive and require significant resources to train and optimize the model. Random Forest has become a popular algorithm in machine learning due to its ability to provide high accuracy and robustness in a wide range of data analysis tasks.
       </p>
    
    12. K Means Clustering
       <p align="justify">
-   
+       K Means Clustering is a popular unsupervised machine learning algorithm used for clustering data into groups or clusters based on their similarity. The algorithm works by partitioning data into K clusters, where K is the number of clusters specified by the user. The K Means Clustering algorithm starts by randomly selecting K data points as centroids, which are the initial cluster centers. The algorithm then assigns each data point to the nearest centroid, creating K clusters. The centroids are then updated by calculating the mean of all the data points in each cluster. The algorithm iteratively repeats these two steps of cluster assignment and centroid update until convergence, which occurs when the centroids no longer change or the maximum number of iterations is reached. The K Means Clustering algorithm has several advantages, including its simplicity, speed, and ability to handle large datasets. However, it also has some limitations, such as its sensitivity to the initial centroids and its tendency to produce spherical clusters. K Means Clustering is widely used in data science for various applications such as image segmentation, customer segmentation, and anomaly detection.
       </p>
    
    13. Hyper Parameter Optimization with GridSearchCV
