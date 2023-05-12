@@ -676,8 +676,10 @@ These techniques can be applied to different types of categorical data and may h
    * Security: Cloud providers have robust security measures in place to protect user data and applications. This can help users ensure the security of their machine learning workloads, without having to worry about the underlying infrastructure.
    
    Overall, cloud computing provides a highly scalable, cost-effective, and flexible platform for machine learning that can help organizations accelerate their machine learning initiatives and stay competitive in today's rapidly changing business landscape. 
+   </p>
+   
    1. Introduction AWS
-      
+      <p align="justify">
       AWS (Amazon Web Services) is a cloud computing platform provided by Amazon. It provides a wide range of cloud-based services, including computing power, storage, and databases, as well as tools for analytics, machine learning, and IoT (Internet of Things). AWS offers a highly scalable and reliable cloud infrastructure that enables businesses to run their applications and services with ease. WS offers a wide range of services, including:
       * mputing: AWS offers a range of computing options, including EC2 (Elastic Compute Cloud), Lambda, and ECS (Elastic Container Service).
       * Storage: AWS offers a range of storage options, including S3 (Simple Storage Service), EBS (Elastic Block Store), and Glacier.
@@ -687,8 +689,32 @@ These techniques can be applied to different types of categorical data and may h
       * IoT: AWS offers a range of IoT options, including IoT Core, Greengrass, and IoT Analytics.
       
    AWS also provides a range of management and security tools to help users manage their resources and ensure the security of their applications and data. These include AWS CloudFormation, AWS CloudTrail, and AWS Identity and Access Management (IAM). Overall, AWS provides a comprehensive cloud computing platform that enables businesses to run their applications and services with ease, while also providing a range of tools and services for analytics, machine learning, and IoT.
-   2. ferent AWS Services
+      </p>
+      
+   2. Different AWS Services
+      <p align="justify">
+      Amazon S3 (Simple Storage Service) is a cloud storage service provided by Amazon Web Services (AWS). S3 enables users to store, retrieve, and manage large amounts of data and files quickly, securely, and easily. The service consists of buckets to store data, and each bucket can store a large number of objects, such as images, videos, documents, and more. S3 has several features, such as:
+     * High durability and availability - S3 redundantly stores each object in multiple availability zones across the AWS region, ensuring high availability and minimizing the risk of data loss.
+     * Scalability - S3 can easily handle storing data from a few bytes to petabytes or more.
+     * Security - S3 provides strong access controls and data encryption to protect data from unauthorized access.
+     * Flexibility - S3 can be used for various use cases, including file storage, data backup and archiving, hosting static websites, and more.
+     * The service also has a usage-based pricing model, where users only pay for the storage capacity and data transfer they use.
+      </p>
+   
    3. Introduction to AWS SageMaker
+      <p align="justify">
+      Amazon SageMaker is a machine learning service provided by Amazon Web Services (AWS) that allows developers and data scientists to build, train, and deploy machine learning models quickly and easily. SageMaker provides a fully-managed platform that enables users to eliminate the heavy lifting typically associated with building, training, and deploying machine learning models. With SageMaker, users can easily create and train machine learning models using popular frameworks like TensorFlow and PyTorch, without needing to worry about the underlying infrastructure.
+      SageMaker also provides pre-built algorithms for common use cases, making it easy to get started with machine learning. In addition, SageMaker provides tools for data labeling, model tuning, and model hosting, making it easy to deploy machine learning models at scale. Users can deploy models as web services that can be easily integrated into applications and can handle millions of requests per day. SageMaker also provides features for model explainability and monitoring, making it easy to understand how the model is making predictions and to detect any issues that may arise over time.
+      Overall, SageMaker simplifies the machine learning workflow and makes it easy for developers and data scientists to build and deploy machine learning models quickly and efficiently.
+      </p>
+
+
+
+
+
+
+   
+   
    4. First Machine Learning Practical on AWS SageMaker
    5. Built in ML Algorithms in AWS SageMaker
    6. Linear Learner Algorithm Practical Implementation
