@@ -773,70 +773,76 @@ These built-in algorithms in AWS SageMaker are pre-optimized for high-performanc
       </p>
 
 
+<!-- Deep Learning -->
+## Deep Learning
 
+<p align="justify">
+Deep learning is a subset of machine learning that involves building and training artificial neural networks to recognize patterns in data. It is a type of artificial intelligence that allows machines to learn from large amounts of data, and make predictions or decisions based on that learning. Deep learning models are designed to simulate the human brain, with layers of artificial neurons that process input data and make predictions or decisions based on that data. These models are trained on large datasets using techniques such as gradient descent, backpropagation, and stochastic gradient descent.
 
+Deep learning has revolutionized many fields, such as computer vision, natural language processing, and speech recognition. It has enabled machines to achieve state-of-the-art performance on tasks such as object detection, image classification, language translation, and voice recognition. Some popular deep learning frameworks and tools include TensorFlow, PyTorch, Keras, and Caffe. These frameworks provide a range of tools for building and training deep learning models, as well as pre-trained models that can be used for various tasks.
 
-<!-- GETTING STARTED -->
-## Getting Started
+Overall, deep learning has enabled machines to learn and make decisions based on complex data, and has the potential to transform many industries and fields in the coming years.
+</p>
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+   1. Artificial Neural Network(ANN)
+      <p align="justify">
+      Artificial Neural Network (ANN) is a type of deep learning model that is inspired by the structure and function of the human brain. It is composed of layers of interconnected artificial neurons, which process information and make predictions or decisions based on that information. An artificial neuron in an ANN takes in input from other neurons or from external sources, and applies a mathematical function to that input to generate an output. This output is then passed on to other neurons in the next layer, and so on, until the final layer produces the model's output. ANNs are trained on large datasets using techniques such as backpropagation and gradient descent. During training, the weights of the connections between neurons are adjusted to minimize the difference between the model's predictions and the actual outputs.
+      ANNs can be used for a wide range of tasks, such as image classification, speech recognition, natural language processing, and many more. They have enabled machines to achieve state-of-the-art performance on many tasks, and have the potential to transform many industries and fields. Some popular deep learning frameworks, such as TensorFlow and PyTorch, provide tools for building and training ANNs, as well as pre-trained models that can be used for various tasks. Overall, ANNs are a powerful tool in the field of deep learning and have the potential to revolutionize many fields in the coming years.
+       </p>
+   
+   2. Activation Functions Neural Networks 
+      <p align="justify">
+      Activation functions are a critical component of artificial neural networks (ANNs). They introduce nonlinearity into the output of artificial neurons, allowing ANNs to learn and model complex, nonlinear relationships in data. An activation function takes in the weighted sum of the inputs to an artificial neuron and applies a mathematical function to that sum to produce the neuron's output. The output is then passed on to other neurons in the network.
+   There are many types of activation functions used in ANNs, including:
+      * Sigmoid: The sigmoid function produces an S-shaped curve that maps any input to a value between 0 and 1. It is commonly used in the output layer of binary classification tasks.
+      * ReLU (Rectified Linear Unit): ReLU applies a rectifier function to the input, outputting the input if it is positive and 0 if it is negative. It is widely used in hidden layers of deep neural networks.
+      * Tanh: The hyperbolic tangent function is similar to the sigmoid function but maps inputs to a value between -1 and 1. It is often used in the hidden layers of neural networks.
+      * Softmax: The softmax function is used in the output layer of multi-class classification tasks. It maps the input to a probability distribution over the output classes.
+      * Leaky ReLU: Leaky ReLU is similar to ReLU but allows a small, non-zero gradient when the input is negative. This can help with the vanishing gradient problem in deep neural networks.
+   Overall, the choice of activation function can have a significant impact on the performance of an artificial neural network. By introducing nonlinearity, activation functions allow ANNs to model complex relationships in data, and different activation functions may be more suitable for different types of tasks.
+      
+      </p>
+   
+   3. Optimizers in Neural Networks 
+      <p align="justify">
+      Optimizers are a key component of training artificial neural networks (ANNs). They are algorithms that adjust the weights of the connections between neurons during training to minimize the difference between the model's predictions and the actual outputs.There are many different optimizer algorithms that can be used in ANNs, each with its own strengths and weaknesses. Some popular optimizers include:
+         * Stochastic Gradient Descent (SGD): SGD is a simple and widely used optimizer that updates the weights of the connections between neurons based on the gradient of the loss function with respect to the weights. It works well for smaller datasets, but can be slow and can get stuck in local minima.
+         * Adam: Adam is an adaptive optimizer that adjusts the learning rate during training based on the first and second moments of the gradients. It works well for large datasets and can converge quickly, but can be sensitive to the choice of hyperparameters.
+         * Adagrad: Adagrad is an adaptive optimizer that adjusts the learning rate for each weight based on the history of the gradients for that weight. It works well for sparse datasets, but can converge too quickly and stop learning.
+         * RMSprop: RMSprop is an adaptive optimizer that adjusts the learning rate based on the root mean square of the gradients. It works well for non-stationary problems, but can have trouble with saddle points.
+      
+      There are many other optimizer algorithms as well, each with its own tradeoffs. The choice of optimizer can have a significant impact on the performance of an ANN, and choosing the right optimizer for a particular task is an important part of the training process.
+   
+      </p>
+   
+   4. Convolutional Neural Network(CNN)
+      <p align="justify">
+      Convolutional Neural Networks (CNNs) are a type of artificial neural network that are commonly used for image and video analysis tasks. They are inspired by the organization of the visual cortex in animals, which uses a hierarchical arrangement of cells to process visual information. A CNN consists of multiple layers, including convolutional layers, pooling layers, and fully connected layers. The convolutional layers apply a set of filters to the input image, extracting features such as edges and corners. The pooling layers downsample the output of the convolutional layers, reducing the dimensionality of the feature maps. The fully connected layers take the flattened output of the pooling layers and produce the final output of the network.
+      CNNs are trained using a process called backpropagation, which adjusts the weights of the connections between neurons to minimize the difference between the model's predictions and the actual outputs. The weights in the convolutional layers are learned automatically during training, allowing the network to adapt to different types of images and visual features. CNNs have achieved state-of-the-art performance on many computer vision tasks, such as image classification, object detection, and semantic segmentation. They have been used in a wide range of applications, from self-driving cars to medical imaging. Many popular deep learning frameworks, such as TensorFlow and PyTorch, provide tools for building and training CNNs.
+   
+      </p>
+   
+   
+   5. Recurrent Neural Network(RNNs)
+      
+      <p align="justify">
+      Recurrent Neural Networks (RNNs) are a type of artificial neural network that are commonly used for processing sequential data, such as time-series data or natural language text. Unlike feedforward neural networks, which process inputs one at a time without any memory of past inputs, RNNs maintain an internal state or "memory" that allows them to process sequences of inputs. At each time step, an RNN takes in an input and produces an output and an updated internal state. The output is typically fed back into the network as input for the next time step, along with the next input in the sequence. This allows the network to maintain a memory of past inputs and produce outputs that depend on the entire input sequence, not just the current input. RNNs can be trained using a process called backpropagation through time, which is a variant of backpropagation that takes into account the temporal dependencies between the inputs and outputs. However, RNNs can suffer from the vanishing gradient problem, where the gradients used to update the network weights become very small and cause the network to stop learning.
+      To address this problem, several variants of RNNs have been developed, such as Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU), which use specialized memory cells and gating mechanisms to control the flow of information through the network and avoid the vanishing gradient problem. RNNs have been successfully applied in many areas, such as speech recognition, machine translation, and image captioning. They are also commonly used as a building block for more complex models, such as encoder-decoder architectures and attention mechanisms. Many popular deep learning frameworks, such as TensorFlow and PyTorch, provide tools for building and training RNNs and their variants.
+      </p>
 
-### Prerequisites
+<!-- Project -->
+## Project
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Diabetes Prediction
+- [x] Medical Insurance Cost Prediction
+- [ ] Gold Price Prediction Using ANN
+- [ ] Implementation of CNN Using Keras and TensorFlow
+- [ ] Stock Price Prediction Using LSTM 
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -857,73 +863,20 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name -  <!-- [@your_twitter](https://twitter.com/your_username) - email@example.com -->
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Project Link: <!-- [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name) -->
 
 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
