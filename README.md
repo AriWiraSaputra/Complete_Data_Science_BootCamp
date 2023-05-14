@@ -699,7 +699,7 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
       * Machine Learning: AWS offers a range of machine learning options, including SageMaker, Rekognition, and Comprehend.
       * IoT: AWS offers a range of IoT options, including IoT Core, Greengrass, and IoT Analytics.
       
-   <p align="justify"> AWS also provides a range of management and security tools to help users manage their resources and ensure the security of their applications and data. These include AWS CloudFormation, AWS CloudTrail, and AWS Identity and Access Management (IAM). Overall, AWS provides a comprehensive cloud computing platform that enables businesses to run their applications and services with ease, while also providing a range of tools and services for analytics, machine learning, and IoT. </p>
+      <p align="justify"> AWS also provides a range of management and security tools to help users manage their resources and ensure the security of their applications and data. These include AWS CloudFormation, AWS CloudTrail, and AWS Identity and Access Management (IAM). Overall, AWS provides a comprehensive cloud computing platform that enables businesses to run their applications and services with ease, while also providing a range of tools and services for analytics, machine learning, and IoT. </p>
      
    2. Different AWS Services
       
@@ -748,7 +748,7 @@ Pandas is highly popular among data scientists, computer scientists, and enginee
       * Random Cut Forest: An unsupervised learning algorithm used for anomaly detection.
       * Principal Component Analysis (PCA): A dimensionality reduction algorithm used for feature extraction and data compression.
 
-These built-in algorithms in AWS SageMaker are pre-optimized for high-performance and scalable machine learning, and can be easily trained and deployed on large datasets. You can also customize these algorithms using SageMaker's built-in frameworks like TensorFlow and PyTorch, or use your own custom algorithms with SageMaker's Bring Your Own Algorithm (BYOA) feature. </p>
+      These built-in algorithms in AWS SageMaker are pre-optimized for high-performance and scalable machine learning, and can be easily trained and deployed on large datasets. You can also customize these algorithms using SageMaker's built-in frameworks like TensorFlow and PyTorch, or use your own custom algorithms with SageMaker's Bring Your Own Algorithm (BYOA) feature. </p>
       
    6. Linear Learner Algorithm Practical Implementation
       
@@ -790,14 +790,15 @@ Overall, deep learning has enabled machines to learn and make decisions based on
    2. Activation Functions Neural Networks 
       
       <p align="justify"> Activation functions are a critical component of artificial neural networks (ANNs). They introduce nonlinearity into the output of artificial neurons, allowing ANNs to learn and model complex, nonlinear relationships in data. An activation function takes in the weighted sum of the inputs to an artificial neuron and applies a mathematical function to that sum to produce the neuron's output. The output is then passed on to other neurons in the network.
-   There are many types of activation functions used in ANNs, including:
-      
-      * Sigmoid: The sigmoid function produces an S-shaped curve that maps any input to a value between 0 and 1. It is commonly used in the output layer of binary classification tasks.
-      * ReLU (Rectified Linear Unit): ReLU applies a rectifier function to the input, outputting the input if it is positive and 0 if it is negative. It is widely used in hidden layers of deep neural networks.
-      * Tanh: The hyperbolic tangent function is similar to the sigmoid function but maps inputs to a value between -1 and 1. It is often used in the hidden layers of neural networks.
-      * Softmax: The softmax function is used in the output layer of multi-class classification tasks. It maps the input to a probability distribution over the output classes.
-      * Leaky ReLU: Leaky ReLU is similar to ReLU but allows a small, non-zero gradient when the input is negative. This can help with the vanishing gradient problem in deep neural networks.
-   Overall, the choice of activation function can have a significant impact on the performance of an artificial neural network. By introducing nonlinearity, activation functions allow ANNs to model complex relationships in data, and different activation functions may be more suitable for different types of tasks. </p>
+      There are many types of activation functions used in ANNs, including:
+         
+         * Sigmoid: The sigmoid function produces an S-shaped curve that maps any input to a value between 0 and 1. It is commonly used in the output layer of binary classification tasks.
+         * ReLU (Rectified Linear Unit): ReLU applies a rectifier function to the input, outputting the input if it is positive and 0 if it is negative. It is widely used in hidden layers of deep neural networks.
+         * Tanh: The hyperbolic tangent function is similar to the sigmoid function but maps inputs to a value between -1 and 1. It is often used in the hidden layers of neural networks.
+         * Softmax: The softmax function is used in the output layer of multi-class classification tasks. It maps the input to a probability distribution over the output classes.
+         * Leaky ReLU: Leaky ReLU is similar to ReLU but allows a small, non-zero gradient when the input is negative. This can help with the vanishing gradient problem in deep neural networks.
+   
+      Overall, the choice of activation function can have a significant impact on the performance of an artificial neural network. By introducing nonlinearity, activation functions allow ANNs to model complex relationships in data, and different activation functions may be more suitable for different types of tasks. </p>
       
    3. Optimizers in Neural Networks 
       
